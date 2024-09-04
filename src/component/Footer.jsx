@@ -21,7 +21,7 @@ function Footer() {
     <footer>
       
           <button className='window'>
-            <img src="%PUBLIC_URL%/assets/images/ico_window.png" alt="" />
+            <img src={process.env.PUBLIC_URL + '/assets/images/ico_window.png'} alt="" />
           </button>
       
           <div className='tabs'>
@@ -29,11 +29,11 @@ function Footer() {
             {menuArr.map((ele, idx) => {
               if(ele.name === 'GitHub') {
                   return <a key={idx} className={currentTab === idx ? 'folderIcon tabBtn on' : 'folderIcon tabBtn'} href='https://github.com/seo-ha' target='_blank' rel="noreferrer">
-                  <img src={`%PUBLIC_URL%/assets/images/ico_${ele.icon}.png`} alt="" />
+                  <img src={process.env.PUBLIC_URL +`/assets/images/ico_${ele.icon}.png`} alt="" />
                 </a>
               }
               return <button key={idx} className={currentTab === idx ? 'folderIcon tabBtn on' : 'folderIcon tabBtn'} onClick={()=> selectMenuhandler(idx)}>
-                <img src={`%PUBLIC_URL%/assets/images/ico_${ele.icon}.png`} alt="" />
+                <img src={process.env.PUBLIC_URL +`/assets/images/ico_${ele.icon}.png`} alt="" />
               </button>
             })}
             
