@@ -130,9 +130,25 @@
     {
         "id": "17",
         "title" : "개인 프로젝트",
-        "smallTit" : "리액트를 사용해 독후감 사이트를 만들었습니다.",
-        "infoTit" : "100%, Mobile",
+        "smallTit" : "kakao Api로 독후감 사이트를 만들었습니다.",
+        "infoTit" : "100%, Mobile, React, kakao api",
         "url" : "https://seo-ha.github.io/bookdiary/",
+        "urlBool" : true
+    },
+    {
+        "id": "18",
+        "title" : "개인 프로젝트",
+        "smallTit" : "포켓몬 api로 포켓몬 도감를 만들었습니다.",
+        "infoTit" : "100%, Mobile, React, 포켓몬 api",
+        "url" : "https://seo-ha.github.io/pokemon/",
+        "urlBool" : true
+    },
+    {
+        "id": "19",
+        "title" : "개인 프로젝트",
+        "smallTit" : "포트폴리오 사이트를 만들었습니다.",
+        "infoTit" : "100%, Mobile, React",
+        "url" : "https://seo-ha.github.io/portfolio/",
         "urlBool" : true
     }
     

@@ -220,6 +220,27 @@ function Skill() {
 
                 <tr>
                   <td colSpan={2}>
+                      <p className='siteName'>포트폴리오 사이트<small> | 퍼블리싱 100%</small></p>
+                      <span className='siteInfo'>- 리액트로 포트폴리오 사이트를 만들었습니다</span>
+                      <div className='tags'>
+                        <span className='tag color3'>react</span>
+                        <span className='tag color5'>scss</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td colSpan={2}>
+                      <p className='siteName'>포켓몬 도감 사이트<small> | 퍼블리싱 100%</small></p>
+                      <span className='siteInfo'>- 포켓몬 api 사용 </span>
+                      <div className='tags'>
+                        <span className='tag color4'>포켓몬 API</span>
+                        <span className='tag color3'>react</span>
+                        <span className='tag color5'>scss</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td colSpan={2}>
                       <p className='siteName'>독후감 사이트<small> | 퍼블리싱 100%</small></p>
                       <span className='siteInfo'>- 카카오톡 책 api 사용</span>
                       <div className='tags'>

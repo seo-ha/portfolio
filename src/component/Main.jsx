@@ -5,7 +5,7 @@ function Main() {
 
   const [toggle, setToggle] = useState(false);
   const {currentTab, menuArr, selectMenuhandler} = useContext(tabContext);
-  
+  const [isDragMove, setIsDragMove] = useState(false);
   const [ windowSize, setWindowSize] = useState({
     width: undefined,
     height: undefined,
@@ -17,7 +17,7 @@ function Main() {
   })
   
   useEffect(()=>{
-    
+    //main container resize
     if (typeof window !== 'undefined') {
       
       const handleResize = () => {
@@ -68,8 +68,6 @@ function Main() {
     }
    
   },[])
-  
-  const [isDragMove, setIsDragMove] = useState(false);
   
   function MouseDrag(e) {
 

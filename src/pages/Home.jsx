@@ -3,7 +3,15 @@ import React, { useState } from 'react'
 function Home() {
 
   const [search, setSearch] = useState("");
-  const list = ['안녕하세요', '날씨가 이게 뭐야', '아아아아아니', '집가고싶다'];
+  const list = [
+    '정직한', 
+    '늘 배우는', 
+    '성실한', 
+    '손이 빠른',
+    '꼼꼼한',
+    '책임감이 있는',
+    '퍼블리셔',
+  ];
 
   const filterTitle = list.filter((item) => {
     return item.toLocaleLowerCase().includes(search.toLocaleLowerCase())
@@ -25,7 +33,7 @@ function Home() {
       </h1>
 
       <div className="searchBox">
-        <input type="search" name="" id="searchInput" value={search} onChange={onChange} placeholder='리스트를 검색해 보세요.'/>
+        <input type="search" name="" id="searchInput" value={search} onChange={onChange} placeholder='키워드를 검색해 보세요.'/>
         <button></button>
       </div>
 
