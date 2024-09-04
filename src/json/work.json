@@ -1,0 +1,139 @@
+[
+    {
+        "id": "1",
+        "title" : "비드밀",
+        "smallTit" : "위탁급식 업체를 문의ㆍ의뢰하는 사이트를 신규 구축했습니다.",
+        "infoTit" : "100%, 반응형",
+        "url" : "https://www.bidmeal.co.kr/",
+        "urlBool" : true
+    },
+    {
+        "id": "2",
+        "title" : "SMI Noise Scope",
+        "smallTit" : "차량 정비 보고서 관리 사이트를 신규 구축했습니다.",
+        "infoTit" : "100%, 반응형",
+        "url" : "https://bluehands.smins.kr/bbs/login.php",
+        "urlBool" : true
+    },
+    {
+        "id": "3",
+        "title" : "Mediespresso",
+        "smallTit" : "캡슐커피 브랜드 메디프레소의 사이트를 신규 구축했습니다.",
+        "infoTit" : "100%, 반응형, cafe24",
+        "url" : "https://www.mediespresso.com/",
+        "urlBool" : true
+    },
+    {
+        "id": "4",
+        "title" : "2023 기획재정부",
+        "smallTit" : "2023 기획재정부의 사이트를 신규 구축했습니다.",
+        "infoTit" : "100%, 반응형",
+        "url" : "",
+        "urlBool" : false
+    },
+    {
+        "id": "5",
+        "title" : "Medihealth",
+        "smallTit" : "메디프레소의 헬스케어 사이트를 신규 구축했습니다.",
+        "infoTit" : "100%, 반응형",
+        "url" : "https://www.medihealth.co.kr/",
+        "urlBool" : true
+    },
+    {
+        "id": "6",
+        "title" : "Volvo Lifestyle",
+        "smallTit" : "볼보의 생활용품 쇼핑몰을 신규 구축했습니다",
+        "infoTit" : "100%, 반응형, cafe24",
+        "url" : "https://www.volvolifestyle.com/",
+        "urlBool" : true
+    },
+    {
+        "id": "7",
+        "title" : "Boucheron",
+        "smallTit" : "부쉐론 이벤트로 기기에 맞는 이미지를 다운로드 받을 수 있는 사이트를 구축했습니다.",
+        "infoTit" : "100%, 반응형",
+        "url" : "",
+        "urlBool" : false
+    },
+    {
+        "id": "8",
+        "title" : "2024 기획재정부",
+        "smallTit" : "2023 기획재정부 사이트를 2024 기획재정부의 사이트로 리뉴얼 했습니다",
+        "infoTit" : "100%, 반응형",
+        "url" : "",
+        "urlBool" : false
+    },
+    {
+        "id": "9",
+        "title" : "First Kid Mall",
+        "smallTit" : "아동의류 쇼핑몰을 신규 구축했습니다.",
+        "infoTit" : "100%, 반응형",
+        "url" : "https://www.firstkid.co.kr/",
+        "urlBool" : true
+    },
+    {
+        "id": "10",
+        "title" : "Boucheron",
+        "smallTit" : "부쉐론 이벤트로 카드를 색칠해 공유하는 사이트를 신규 구축했습니다.",
+        "infoTit" : "100%, 반응형",
+        "url" : "",
+        "urlBool" : false
+    },
+    {
+        "id": "11",
+        "title" : "Volvo Hej Space",
+        "smallTit" : "볼보 유니폼 쇼핑몰을 신규 구축했습니다.",
+        "infoTit" : "100%, 반응형, cafe24",
+        "url" : "https://www.volvohejspace.com/bbs/login.php?url=https%3A%2F%2Fwww.volvohejspace.com%2Findex.php",
+        "urlBool" : true
+    },
+    {
+        "id": "12",
+        "title" : "Volvo Digital Shop",
+        "smallTit" : "볼보 한정판 차량 예약 사이트를 신규 구축했습니다.",
+        "infoTit" : "100%, 반응형",
+        "url" : "https://volvodigitalshop.com/",
+        "urlBool" : true
+    },
+    {
+        "id": "13",
+        "title" : "Skbioscience",
+        "smallTit" : "Careers, Esg 페이지 작업, 접근성 작업을 했습니다.",
+        "infoTit" : "40%, 반응형",
+        "url" : "https://www.skbioscience.com/kr/main",
+        "urlBool" : true
+    },
+    {
+        "id": "14",
+        "title" : "HIV",
+        "smallTit" : "Hiv 검진 안내 사이트를 구축했습니다.",
+        "infoTit" : "100%, 반응형",
+        "url" : "https://www.hipchoice.kr/",
+        "urlBool" : true
+    },
+    {
+        "id": "15",
+        "title" : "Hej Volvo",
+        "smallTit" : "헤이볼보 앱(차량용)을 리뉴얼 했습니다.",
+        "infoTit" : "100%, Tablet",
+        "url" : "https://play.google.com/store/apps/details?id=com.volvocars.vcksmart&hl=ko",
+        "urlBool" : true
+    },
+    {
+        "id": "16",
+        "title" : "Hej Volvo",
+        "smallTit" : "헤이볼보 앱(모바일)을 리뉴얼 했습니다.",
+        "infoTit" : "100%, Mobile",
+        "url" : "https://play.google.com/store/apps/details?id=com.volvocars.vcksmart&hl=ko",
+        "urlBool" : true
+    },
+    {
+        "id": "17",
+        "title" : "개인 프로젝트",
+        "smallTit" : "리액트를 사용해 독후감 사이트를 만들었습니다.",
+        "infoTit" : "100%, Mobile",
+        "url" : "https://seo-ha.github.io/bookdiary/",
+        "urlBool" : true
+    }
+    
+]
