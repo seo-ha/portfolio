@@ -10,11 +10,11 @@ function Header() {
       {menuArr.map((ele, idx) => {
         if(ele.name === 'GitHub') {
             return <a key={idx} className={`folderIcon ${ele.className}`} href='https://github.com/seo-ha' target='_blank' rel="noreferrer">
-            <img src={`/assets/images/ico_${ele.icon}.png`} alt="" />
+            <img src={`%PUBLIC_URL%/assets/images/ico_${ele.icon}.png`} alt="" />
           </a>
         }
         return <button key={idx} className={`folderIcon ${ele.className}`} onClick={()=> selectMenuhandler(idx)}>
-          <img src={`/assets/images/ico_${ele.icon}.png`} alt="" />
+          <img src={`%PUBLIC_URL%/assets/images/ico_${ele.icon}.png`} alt="" />
         </button>
       })}
     </header>
