@@ -222,6 +222,7 @@ function Skill() {
                   <td colSpan={2}>
                       <p className='siteName'>포트폴리오 사이트<small> | 퍼블리싱 100%</small></p>
                       <span className='siteInfo'>- 리액트로 포트폴리오 사이트를 만들었습니다</span>
+                      <span className='siteInfo'>- 헤더를 잡고 드래그하면 이동이 가능하게 만들었습니다.</span>
                       <div className='tags'>
                         <span className='tag color3'>react</span>
                         <span className='tag color5'>scss</span>
