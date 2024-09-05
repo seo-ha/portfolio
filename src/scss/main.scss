@@ -194,7 +194,7 @@
                 }
                 
                 textarea {
-                    width: 100%; flex-grow: 1; line-height: 1.5; font-weight: 500; resize: none;
+                    width: 100%; flex-grow: 1; line-height: 1.5; resize: none;
 
 
                 }
@@ -252,9 +252,9 @@
     
         .searchBox {
     
-            display: flex; align-items: center; width: 80%; max-width: 500px; height: 40px; margin: 50px auto 0; padding: 0 30px; border-radius: 20px; border: 1px solid #eaeaea;
+            display: flex; align-items: center; justify-content: space-between; width: 80%; max-width: 500px; height: 40px; margin: 50px auto 0; padding: 0 30px; border-radius: 20px; border: 1px solid #eaeaea;
     
-            input {flex-grow: 1; height: 100%; padding-right:30px; font-size: 14px;}
+            input {width: 85%;height: 100%; font-size: 14px;}
             
             button {width: 20px; min-width: 20px; height: 20px; background: url(../../public/assets/images/ico_search.png) no-repeat center center / 100%;}
         }
