@@ -132,13 +132,13 @@ function Main() {
             {menuArr.map((ele, idx) => {
               if(ele.name === 'GitHub') {
                   return <a key={idx} className={currentTab === idx ? 'mainTab tabBtn on' : 'mainTab tabBtn'} href='https://github.com/seo-ha' target='_blank' rel="noreferrer">
-                  <img src={`%PUBLIC_URL%/assets/images/ico_${ele.icon}.png`} alt="" />
+                  <img src={process.env.PUBLIC_URL + `/assets/images/ico_${ele.icon}.png`} alt="" />
                   {ele.name}
                   <span className='closeBtn'><i></i></span>
                 </a>
               }
               return <button key={idx} className={currentTab === idx ? `mainTab tabBtn on` : `mainTab tabBtn`} onClick={()=> selectMenuhandler(idx)}>
-                <img src={`%PUBLIC_URL%/assets/images/ico_${ele.icon}.png`} alt="" />
+                <img src={process.env.PUBLIC_URL + `/assets/images/ico_${ele.icon}.png`} alt="" />
                 {ele.name}
                 <span className='closeBtn'><i></i></span>
               </button>
@@ -147,9 +147,9 @@ function Main() {
           </div>
           
           <div className={ isDragMove ? `icons on` : `icons`} onMouseDown={(e) => MouseDrag(e)} >
-            <button className='nonclick'><img src="%PUBLIC_URL%/assets/images/ico_hide.png" alt="" /></button>
-            <button onClick={Toggle}><img src={ !toggle ? "%PUBLIC_URL%/assets/images/ico_upSize.png" :  "%PUBLIC_URL%/assets/images/ico_downSize.png"} alt="" /></button>
-            <button className='nonclick'><img src="%PUBLIC_URL%/assets/images/ico_close.png" alt="" /></button>
+            <button className='nonclick'><img src={process.env.PUBLIC_URL + "/assets/images/ico_hide.png"} alt="" /></button>
+            <button onClick={Toggle}><img src={ !toggle ? process.env.PUBLIC_URL + "/assets/images/ico_upSize.png" :  process.env.PUBLIC_URL +  "/assets/images/ico_downSize.png"} alt="" /></button>
+            <button className='nonclick'><img src={process.env.PUBLIC_URL + "/assets/images/ico_close.png"} alt="" /></button>
           </div>
           
         </div>

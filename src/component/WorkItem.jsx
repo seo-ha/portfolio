@@ -9,7 +9,7 @@ function WorkItem({idx, title, smallTit, infoTit, url, urlBool}) {
     <li className={`item item${idx}`}>
         <a href={urlBool ? url : undefined} target={urlBool ? "_blank" : '_self'} rel="noopener noreferrer" onClick={  urlBool ? ()=> false : () => undefindUrl() }  >
             <div className="imgBox">
-                <img src={`%PUBLIC_URL%/assets/images/work/img${idx}.jpg`} alt={title} />
+                <img src={process.env.PUBLIC_URL + `/assets/images/work/img${idx}.jpg`} alt={title} />
             </div>
             <div className="hoverBox">
                 <h2 className="tit">{title}</h2>
