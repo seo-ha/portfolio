@@ -118,7 +118,7 @@ function Contact() {
         <form ref={form} onSubmit={sendEmail}>
           
           <div className="inputBox">
-            <label htmlFor="emailValue">Email : <input type="email" name="user_email" id="emailValue" value={email} onChange={onEmailChange} placeholder='이메일을 적어주세요.'/></label>
+            <label htmlFor="emailValue"><span>Email : </span><input type="email" name="user_email" id="emailValue" value={email} onChange={onEmailChange} placeholder='이메일을 적어주세요.'/></label>
             <textarea name="user_message" id="content" placeholder='내용을 적어주세요.' value={textarea} onChange={onTextAreaChange}></textarea>
           </div>
           

@@ -212,7 +212,7 @@ function Skill() {
             </colgroup>
               <thead>
                 <tr>
-                  <th>개인 프로젝트</th>
+                  <th className='mWidth'>개인 프로젝트</th>
                   <td> ~ ing</td>
                 </tr>
               </thead>
