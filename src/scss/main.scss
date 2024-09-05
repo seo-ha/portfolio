@@ -277,6 +277,9 @@
         
         .caption {position: absolute; bottom: 15px; right: 15px; font-size: 15px; color: #888888;}
         
+        @include max-screen(900px) {
+            .caption {display: none;}
+        }
         @include max-screen(600px) {
             padding: 13vh 30px 0;
             
