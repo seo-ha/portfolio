@@ -24,7 +24,7 @@ function Works() {
   return (
     <div className='tabContent works'>
       
-      <openPopup.Provider value={{popupBool, undefindUrl}}>
+      <openPopup.Provider value={{undefindUrl}}>
         <ul>
           
           {work

@@ -1,0 +1,177 @@
+[
+    {
+        "name" : "Hej Volvo (앱)",
+        "publishing" : "90",
+        "infos" : [
+            "헤이볼보 앱 리뉴얼 작업",
+            "메인 페이지 퀵 메뉴 작업",
+            "json을 사용해 서비스 센터 리스트 작업"
+        ],
+        "tags" : []
+    },
+    {
+        "name" : "Hej Volvo (차량용)",
+        "publishing" : "90",
+        "infos" : [
+            "헤이볼보 앱 리뉴얼 작업",
+            "메인 페이지 퀵 메뉴 작업",
+            "localStorage를 사용해 다크모드 작업",
+            "json을 사용해 서비스 센터 리스트 작업",
+            "Tmap.api를 사용해 경로안내, 이미지 캡처 작업"
+        ],
+        "tags" : [
+            { "num" : 1, "txt": "jquery-ui.js"},
+            { "num" : 4, "txt": "Tmap API"}
+        ]
+    },
+    {
+        "name" : "HIV",
+        "publishing" : "100",
+        "infos" : [
+            "Hiv 검진 안내 사이트 반응형 작업",
+            "메인 페이지 인물 선택 작업",
+            "스크롤을 내렸을 때 상단 progressbar 작업",
+            "hiv 검진 체험하기 팝업 작업",
+            "sessionStorage를 사용해 인물을 선택했을 때 새로고침, 뒤로가기 클릭 시 인물이 변하지 않게 작업했다"
+        ],
+        "tags" :  []
+    },
+    {
+        "name" : "Skbioscience",
+        "publishing" : "40",
+        "infos" : [
+            "Careers, Esg 페이지 반응형 작업",
+            "웹 접근성 작업",
+            "기타 유지보수 작업"
+        ],
+        "tags" : [
+            { "num" : 5, "txt": "웹 접근성"}
+        ]
+    },
+    {
+        "name" : "Volvo Digital Shop",
+        "publishing" : "100",
+        "infos" : [
+            "volvo 한정판 차량 예약 사이트 반응형 작업",
+            "카운트다운 작업"
+        ],
+        "tags" : [ ]
+    },
+    {
+        "name" : "Volvo Hej Space",
+        "publishing" : "100",
+        "infos" : [
+            "volvo 유니폼 쇼핑몰 반응형 작업"
+        ],
+        "tags" : [ 
+            { "num" : 2, "txt": "cafe24"}
+         ]
+        
+    },
+    {
+        "name" : "Boucheron",
+        "publishing" : "100",
+        "infos" : [
+            "부쉐론 이벤트로 카드를 색칠해 공유하는 사이트 반응형 작업",
+            "카카오톡 인앱브라우저 우회 작업",
+            "카카오톡, 페이스북 공유 작업"
+        ],
+        "tags" : [
+            { "num" : 4, "txt": "kakao api"}
+        ]
+    },
+    {
+        "name" : "First Kid Mall",
+        "publishing" : "100",
+        "infos" : [
+            "아동의류 쇼핑몰 반응형 작업",
+            "브랜드 별 다르게 설정된 헤더 css"
+        ],
+        "tags" : [ ]
+    },
+    {
+        "name" : "2024 기획재정부",
+        "publishing" : "100",
+        "infos" : [
+            "2024 기획재정부의 사이트"
+        ],
+        "tags" : [ ]
+    },
+    {
+        "name" : "Boucheron",
+        "publishing" : "100",
+        "infos" : [
+            "부쉐론 이벤트 사이트 반응형 작업",
+            "현재 사용하고 있는 기기에 맞는 이미지 사이즈 다운로드 작업",
+            "카카오톡, 페이스북 공유 작업"
+        ],
+        "tags" : [ 
+            { "num" : 6, "txt": "kakao api"}
+         ]
+    },
+    {
+        "name" : "Volvo Lifestyle",
+        "publishing" : "100",
+        "infos" : [
+            "volvo 생활용품 쇼핑몰 반응형 작업" 
+        ],
+        "tags" : [ 
+            { "num" : 3, "txt": "cafe24"}
+        ]
+    },
+    {
+        "name" : "Medihealth",
+        "publishing" : "100",
+        "infos" : [
+            "커피 브랜드 메디프레소의 헬스케어 사이트 반응형 작업",
+            "fullPage.js를 사용해 메인페이지 반응형 작업"
+        ],
+        "tags" : [
+            { "num" : 1, "txt": "fullPage.js"},
+            { "num" : 5, "txt": "aos"}
+        ]
+    },
+    {
+        "name" : "2023 기획재정부",
+        "publishing" : "100",
+        "infos" : [
+            "2023 기획재정부의 사이트 반응형 작업",
+            "YouTube Player API로 동영상 삽입 작업"
+        ],
+        "tags" : [
+            { "num" : 4, "txt": "YouTube Player API"}
+        ]
+    },
+    {
+        "name" : "Mediespresso",
+        "publishing" : "100",
+        "infos" : [
+            "캡슐커피 브랜드 메디프레소의 사이트 반응형 작업",
+            "cafe24의 구조를 이해 할 수 있었다",
+            "aos를 사용해 애니메이션 효과 사용"
+        ],
+        "tags" : [
+            { "num" : 5, "txt": "cafe24"},
+            { "num" : 2, "txt": "aos"}
+        ]
+    },
+    {
+        "name" : "SMI Noise Scope",
+        "publishing" : "100",
+        "infos" : [
+            "차량 정비 보고서 관리 사이트 반응형 작업",
+            "작성한 내용을 PPT, docx 파일로 다운로드 작업"
+        ],
+        "tags" : [
+            { "num" : 6, "txt": "pptxGen.js"},
+            { "num" : 4, "txt": "jsZip.js"}
+        ]
+    },
+    {
+        "name" : "비드밀",
+        "publishing" : "100",
+        "infos" : [
+            "위탁급식 업체를 문의ㆍ의뢰하는 사이트 반응형 작업"
+        ]
+    }
+]

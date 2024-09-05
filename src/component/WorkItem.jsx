@@ -3,7 +3,7 @@ import { openPopup } from "../pages/Works"
 
 function WorkItem({idx, title, smallTit, infoTit, url, urlBool}) {
   
-  const {popupBool, undefindUrl} = useContext(openPopup)
+  const {undefindUrl} = useContext(openPopup)
   
   return (
     <li className={`item item${idx}`}>

@@ -1,0 +1,39 @@
+[
+    {
+        "name" : "포트폴리오 사이트",
+        "publishing" : "100",
+        "infos" : [
+            "리액트로 포트폴리오 사이트를 만들었습니다",
+            "헤더를 잡고 드래그하면 이동이 가능하게 만들었습니다"
+        ],
+        "tags" : [
+            { "num" : 3, "txt": "react"},
+            { "num" : 5, "txt": "scss"}
+        ]
+    },
+    {
+        "name" : "포켓몬 도감 사이트",
+        "publishing" : "100",
+        "infos" : [
+            "포켓몬 api 사용",
+            "fetch와 promise.all에 대해 알게 되었습니다."
+        ],
+        "tags" : [
+            { "num" : 1, "txt": "포켓몬 API"},
+            { "num" : 4, "txt": "react"},
+            { "num" : 6, "txt": "scss"}
+        ]
+    },
+    {
+        "name" : "독후감 사이트",
+        "publishing" : "100",
+        "infos" : [
+            "카카오톡 책 api 사용"
+        ],
+        "tags" : [
+            { "num" : 6, "txt": "kakao 책 API"},
+            { "num" : 2, "txt": "react"},
+            { "num" : 3, "txt": "scss"}
+        ]
+    }
+]
