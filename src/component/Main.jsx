@@ -147,9 +147,9 @@ function Main() {
           </div>
           
           <div className={ isDragMove ? `icons on` : `icons`} onMouseDown={(e) => MouseDrag(e)} >
-            <button className='nonclick'><img src={process.env.PUBLIC_URL + "/assets/images/ico_hide.png"} alt="" /></button>
-            <button onClick={Toggle}><img src={ !toggle ? process.env.PUBLIC_URL + "/assets/images/ico_upSize.png" :  process.env.PUBLIC_URL +  "/assets/images/ico_downSize.png"} alt="" /></button>
-            <button className='nonclick'><img src={process.env.PUBLIC_URL + "/assets/images/ico_close.png"} alt="" /></button>
+            <button className='nonclick'><img src={process.env.PUBLIC_URL + "/assets/images/ico_hide.png?ver=0905"} alt="" /></button>
+            <button onClick={Toggle}><img src={ !toggle ? process.env.PUBLIC_URL + "/assets/images/ico_upSize.png?ver=0905" :  process.env.PUBLIC_URL +  "/assets/images/ico_downSize.png?ver=0905"} alt="" /></button>
+            <button className='nonclick'><img src={process.env.PUBLIC_URL + "/assets/images/ico_close.png?ver=0905"} alt="" /></button>
           </div>
           
         </div>
