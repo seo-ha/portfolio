@@ -16,7 +16,7 @@ function Home() {
   ];
 
   const filterTitle = list.filter((item) => {
-    return item.text.toLocaleLowerCase().includes(search.toLocaleLowerCase())
+    return item.text.includes(search)
   })
 
   const onChange = (e) => {

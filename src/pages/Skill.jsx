@@ -9,7 +9,7 @@ function Skill() {
       <div className='contentWrap'>
         
         <section className='sec1'>
-          <h1><img src={process.env.PUBLIC_URL + '/assets/images/ico_human.png'} alt="" /><br/>이런 것을 할 줄 알아요!</h1>
+          <h1><img src={process.env.PUBLIC_URL + '/assets/images/ico_human.png'} alt="사람아이콘" loading='lazy'/><br/>이런 것을 할 줄 알아요!</h1>
           
           <ul className='tags'>
             <li className='tag color1'>html/css</li>

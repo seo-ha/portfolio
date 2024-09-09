@@ -122,8 +122,8 @@ function Main() {
 
 
   return (
-    <div id="boundery">
-      <div className={ !toggle ? 'main' : 'main on' } style={{transform: `translateX(${position.x}px) translateY(${position.y}px)`,width: windowSize.width, height:windowSize.height}} >
+    <article id="boundery">
+      <section className={ !toggle ? 'main' : 'main on' } style={{transform: `translateX(${position.x}px) translateY(${position.y}px)`,width: windowSize.width, height:windowSize.height}} >
       
         <div className='nav'> 
         
@@ -132,13 +132,13 @@ function Main() {
             {menuArr.map((ele, idx) => {
               if(ele.name === 'GitHub') {
                   return <a key={idx} className={currentTab === idx ? 'mainTab tabBtn on' : 'mainTab tabBtn'} href='https://github.com/seo-ha' target='_blank' rel="noreferrer">
-                  <img src={process.env.PUBLIC_URL + `/assets/images/ico_${ele.icon}.png`} alt="" />
+                  <img src={process.env.PUBLIC_URL + `/assets/images/ico_${ele.icon}.png`} alt=""  loading='lazy'/>
                   {ele.name}
                   <span className='closeBtn'><i></i></span>
                 </a>
               }
               return <button key={idx} className={currentTab === idx ? `mainTab tabBtn on` : `mainTab tabBtn`} onClick={()=> selectMenuhandler(idx)}>
-                <img src={process.env.PUBLIC_URL + `/assets/images/ico_${ele.icon}.png`} alt="" />
+                <img src={process.env.PUBLIC_URL + `/assets/images/ico_${ele.icon}.png`} alt=""  loading='lazy'/>
                 {ele.name}
                 <span className='closeBtn'><i></i></span>
               </button>
@@ -147,17 +147,17 @@ function Main() {
           </div>
           
           <div className={ isDragMove ? `icons on` : `icons`} onMouseDown={(e) => MouseDrag(e)} >
-            <button className='nonclick'><img src={process.env.PUBLIC_URL + "/assets/images/ico_hide.png?ver=0905"} alt="" /></button>
-            <button onClick={Toggle}><img src={ !toggle ? process.env.PUBLIC_URL + "/assets/images/ico_upSize.png?ver=0905" :  process.env.PUBLIC_URL +  "/assets/images/ico_downSize.png?ver=0905"} alt="" /></button>
-            <button className='nonclick'><img src={process.env.PUBLIC_URL + "/assets/images/ico_close.png?ver=0905"} alt="" /></button>
+            <button className='nonclick'><img src={process.env.PUBLIC_URL + "/assets/images/ico_hide.png?ver=0905"} alt=""  loading='lazy'/></button>
+            <button onClick={Toggle}><img src={ !toggle ? process.env.PUBLIC_URL + "/assets/images/ico_upSize.png?ver=0905" :  process.env.PUBLIC_URL +  "/assets/images/ico_downSize.png?ver=0905"} alt=""  loading='lazy'/></button>
+            <button className='nonclick'><img src={process.env.PUBLIC_URL + "/assets/images/ico_close.png?ver=0905"} alt=""  loading='lazy'/></button>
           </div>
           
         </div>
         
         {menuArr[currentTab].content}
         
-      </div>
-    </div>
+      </section>
+    </article>
   )
 }
 

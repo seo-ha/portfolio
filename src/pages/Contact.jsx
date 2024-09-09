@@ -41,7 +41,7 @@ function Contact() {
     setNewList((item) => [...item, { type: 'right', text: totalText}])
     
     setTimeout(() => {
-      setNewList((item) => [...item, { type: 'left', text: '빠른 시간 내에 연락 드리겠습니다! \n감사합니다 : )'}])
+      setNewList((item) => [...item, { type: 'left', text: '빠른 시일 내에 연락 드리겠습니다! \n감사합니다 : )'}])
     }, 1500);
     
     setEmail(['']);
@@ -50,7 +50,7 @@ function Contact() {
     localStorage.setItem('contact', JSON.stringify(newList));
     
     let newLocal = JSON.parse(localStorage.getItem('contact'));
-    newLocal.push({ type: "right", text: totalText},{ type: 'left', text: '빠른 시간 내에 연락 드리겠습니다! \n감사합니다 : )'})
+    newLocal.push({ type: "right", text: totalText},{ type: 'left', text: '빠른 시일 내에 연락 드리겠습니다! \n감사합니다 : )'})
     localStorage.setItem('contact', JSON.stringify(newLocal));
   }
   
