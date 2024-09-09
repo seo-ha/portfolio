@@ -16,7 +16,7 @@
         "publishing" : "100",
         "infos" : [
             "포켓몬 api 사용",
-            "fetch와 promise.all에 대해 알게 되었습니다."
+            "fetch와 promise.all에 대해 알게 되었습니다"
         ],
         "tags" : [
             { "num" : 1, "txt": "포켓몬 API"},

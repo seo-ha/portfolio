@@ -7,12 +7,12 @@ function Home() {
    { text : '자기소개서' , url : 'https://seohaha.notion.site/4bd92c213c3b424d8e7b12b2bbdcd8f4'}, 
    { text : 'Github' , url : 'https://github.com/seo-ha'}, 
    { text : 'Blog', url : 'https://blog.naver.com/myosotis99'}, 
-   { text : '정직한'}, 
-   { text : '늘 배우는'}, 
-   { text : '성실한'}, 
-   { text : '손이 빠른'},
-   { text : '꼼꼼한'},
-   { text : '책임감이 있는'},
+   { text : '#정직한'}, 
+   { text : '#늘 배우는'}, 
+   { text : '#성실한'}, 
+   { text : '#손이 빠른'},
+   { text : '#꼼꼼한'},
+   { text : '#책임감이 있는'},
   ];
 
   const filterTitle = list.filter((item) => {
