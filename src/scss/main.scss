@@ -363,7 +363,7 @@
                     width: 100%;
                     
                     .hoverBox {
-                        opacity: 1; background: rgba($color: #000, $alpha: 0.5);
+                        opacity: 1; background: rgba($color: #000, $alpha: 0.65);
                         
                         h2 {font-size: 22px; margin-bottom: 20px;}
                         p {font-size: 14px;}
@@ -448,9 +448,9 @@
                 th { text-align: center; font-size: 18px; font-weight: 500; background-color: #eeeeee;}
                 
                 .siteName {
-                    display: flex; align-items: center; font-size: 16px; font-weight: 500;
+                    display: flex; align-items: center; word-break: keep-all; line-height: 1.4; font-size: 16px; font-weight: 500;
 
-                    small {display: inline-block; margin-left: 5px; font-size: 14px; font-weight: 400; }
+                    small {display: inline-block; margin-left: 5px; font-size: 14px; white-space: pre; font-weight: 400; }
                     
                     &::before {display: inline-block; content: ""; width: 5px; height: 5px; margin-right: 7px; border-radius: 2px; background-color: #e91a0b;}
                 }
