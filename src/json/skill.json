@@ -1,28 +1,27 @@
 [
     {
-        "name" : "Hej Volvo (앱)",
-        "publishing" : "90",
+        "name" : "기획재정부",
+        "publishing" : "100",
         "infos" : [
-            "헤이볼보 앱 리뉴얼 작업",
-            "메인 페이지 퀵 메뉴 Drag & Drop 작업",
-            "json으로 서비스 센터 리스트 작업"
+            "2023 ~ 2025 기획재정부의 반응형 사이트",
+            "YouTube Player API로 동영상 작업"
         ],
         "tags" : [
-            { "num" : 5, "txt": "jquery-ui.js"}
+            { "num" : 1, "txt": "YouTube Player API"}
         ]
     },
     {
-        "name" : "Hej Volvo (차량용)",
+        "name" : "Hej Volvo (App, Pad)",
         "publishing" : "90",
         "infos" : [
-            "헤이볼보 앱 리뉴얼 작업",
-            "메인 페이지 퀵 메뉴 Drag & Drop 작업",
-            "localStorage를 사용해 다크모드 작업",
-            "json으로 서비스 센터 리스트 작업",
-            "Tmap.api를 사용해 경로안내, 이미지 캡처 작업"
+            "Hej Volvo 앱 리뉴얼 작업",
+            "퀵 메뉴들을 Drag & Drop으로 자리를 바꿀 수 있으며 선택에 따라 자리 이동 기능 구현",
+            "서비스 센터 리스트를 json으로 만들어 활용",
+            "localStorage를 사용해 다크모드 작업. (Pad)",
+            "Tmap.api를 사용해 경로 안내, 맵 이미지 캡처 작업. (Pad)"
         ],
         "tags" : [
-            { "num" : 1, "txt": "jquery-ui.js"},
+            { "num" : 5, "txt": "jquery-ui.js"},
             { "num" : 4, "txt": "Tmap API"}
         ]
     },
@@ -30,14 +29,16 @@
         "name" : "HIV",
         "publishing" : "100",
         "infos" : [
-            "Hiv 검진 안내 사이트 반응형 작업",
-            "메인 페이지 인물 선택에 따른 이미지 변화 작업",
-            "상세 페이지 스크롤을 내렸을 때 상단 progressbar 작업",
-            "hiv 검진 체험하기 팝업 작업",
-            "sessionStorage를 사용해 인물을 선택했을 때 새로고침, 뒤로가기 클릭 시 인물이 변하지 않게 작업했다",
+            "Hiv 검진 안내 반응형 사이트",
+            "메인 페이지를 position으로 레이어를 쌓아 인물 선택 시 사라지는 효과를 줌",
+            "서브 페이지의 스크롤을 내렸을 때 스크롤 진행 표시 구현",
+            "hiv 검진 체험하기 이지선다 팝업 작업",
+            "sessionStorage를 사용해 메인페이지의 인물을 선택했을 때 새로고침, 뒤로가기해도 인물선택 페이지가 나오지 않게 작업",
             "첨자표시를 위해 sup 태그를 사용했다"
         ],
-        "tags" :  []
+        "tags" :  [
+            { "num" : 3, "txt": "sessionStorage"}
+        ]
     },
     {
         "name" : "Skbioscience",
@@ -45,7 +46,7 @@
         "infos" : [
             "Careers, Esg 페이지 반응형 작업",
             "웹 접근성 작업",
-            "기타 유지보수 작업"
+            "유지보수 작업"
         ],
         "tags" : [
             { "num" : 6, "txt": "웹 접근성"}
@@ -55,7 +56,7 @@
         "name" : "Volvo Digital Shop",
         "publishing" : "100",
         "infos" : [
-            "volvo 한정판 차량 예약 사이트 반응형 작업",
+            "volvo 선착순 차량 예약 반응형 사이트",
             "페이지 오픈 전 카운트다운 페이지 작업"
         ],
         "tags" : [ ]
@@ -64,7 +65,7 @@
         "name" : "Volvo Hej Space",
         "publishing" : "100",
         "infos" : [
-            "volvo 유니폼 쇼핑몰 반응형 작업"
+            "cafe24 개발환경의 반응형 쇼핑몰 사이트"
         ],
         "tags" : [ 
             { "num" : 2, "txt": "cafe24"}
@@ -72,10 +73,10 @@
         
     },
     {
-        "name" : "Boucheron",
+        "name" : "Boucheron - 색칠카드 공유 이벤트",
         "publishing" : "100",
         "infos" : [
-            "부쉐론 겨울 이벤트로 선택한 이미지 카드를 색칠해 공유하는 사이트 반응형 작업",
+            "부쉐론 겨울 이벤트로 선택한 이미지 카드를 색칠해 공유하는 반응형 사이트",
             "스크롤에 따라 카카오톡 브라우저의 상단바가 올라가는 이슈를 막을 수 없어서 카카오톡 인앱브라우저 우회 작업을 했다",
             "카카오톡, 페이스북 공유 작업"
         ],
@@ -87,24 +88,16 @@
         "name" : "First Kid Mall",
         "publishing" : "100",
         "infos" : [
-            "아동의류 쇼핑몰 반응형 작업",
-            "메인 페이지와 설정된 브랜드 헤더 css"
+            "아동의류 쇼핑몰 반응형 사이트",
+            "php if문을 사용해 header에 class추가 작업"
         ],
         "tags" : [ ]
     },
     {
-        "name" : "2024 기획재정부",
+        "name" : "Boucheron - 이미지 다운로드 이벤트",
         "publishing" : "100",
         "infos" : [
-            "2024 기획재정부의 사이트"
-        ],
-        "tags" : [ ]
-    },
-    {
-        "name" : "Boucheron",
-        "publishing" : "100",
-        "infos" : [
-            "부쉐론 이벤트 사이트 반응형 작업",
+            "부쉐론 이벤트 반응형 사이트",
             "현재 사용하고 있는 기기에 맞는 이미지 사이즈 다운로드 작업",
             "카카오톡, 페이스북 공유 작업"
         ],
@@ -116,7 +109,7 @@
         "name" : "Volvo Lifestyle",
         "publishing" : "100",
         "infos" : [
-            "volvo 생활용품 쇼핑몰 반응형 작업" 
+            "volvo 생활용품 쇼핑몰 반응형 사이트" 
         ],
         "tags" : [ 
             { "num" : 3, "txt": "cafe24"}
@@ -126,8 +119,9 @@
         "name" : "Medihealth",
         "publishing" : "100",
         "infos" : [
-            "커피 브랜드 메디프레소의 헬스케어 사이트 반응형 작업",
-            "fullPage.js를 사용해 메인페이지 반응형 작업"
+            "메디프레소의 헬스케어 반응형 사이트",
+            "fullPage.js를 사용해 메인페이지 작업",
+            "aos 애니메이션 효과 작업"
         ],
         "tags" : [
             { "num" : 1, "txt": "fullPage.js"},
@@ -135,23 +129,12 @@
         ]
     },
     {
-        "name" : "2023 기획재정부",
-        "publishing" : "100",
-        "infos" : [
-            "2023 기획재정부의 사이트 반응형 작업",
-            "YouTube Player API로 동영상 삽입 작업"
-        ],
-        "tags" : [
-            { "num" : 4, "txt": "YouTube Player API"}
-        ]
-    },
-    {
         "name" : "Mediespresso",
         "publishing" : "100",
         "infos" : [
-            "캡슐커피 브랜드 메디프레소의 사이트 반응형 작업",
+            "캡슐커피 브랜드 메디프레소의 반응형 사이트",
             "cafe24의 구조를 이해 할 수 있었다",
-            "aos를 사용해 애니메이션 효과 사용"
+            "aos 애니메이션 효과 작업"
         ],
         "tags" : [
             { "num" : 5, "txt": "cafe24"},
@@ -162,8 +145,8 @@
         "name" : "SMI Noise Scope",
         "publishing" : "100",
         "infos" : [
-            "차량 정비 보고서 관리 사이트 반응형 작업",
-            "작성한 내용을 PPT, docx 파일로 다운로드 작업"
+            "차량 정비 보고서 관리 반응형 사이트",
+            "작성한 내용을 PPT, docx 파일로 다운로드 기능 구현"
         ],
         "tags" : [
             { "num" : 6, "txt": "pptxGen.js"},
@@ -174,7 +157,7 @@
         "name" : "비드밀",
         "publishing" : "100",
         "infos" : [
-            "위탁급식 업체를 문의ㆍ의뢰하는 사이트 반응형 작업"
+            "위탁급식 업체를 문의ㆍ의뢰하는 반응형 사이트"
         ]
     }
 ]

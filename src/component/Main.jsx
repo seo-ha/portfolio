@@ -17,14 +17,15 @@ function Main() {
   })
   
   useEffect(()=>{
-    //main container resize
+    //메인 사이즈
     if (typeof window !== 'undefined') {
       
       const handleResize = () => {
         
         const windowWidth = window.innerWidth;
         const windowHeight = window.innerHeight;
-        
+        // console.log(windowHeight);
+
         if(windowWidth < 900) {
            
             setWindowSize({
@@ -37,6 +38,16 @@ function Main() {
               y: Math.ceil((windowHeight - (windowHeight / 1.02)) / 2)
             })
             
+        } else if (windowWidth < 1950 && windowHeight < 950) {
+            setWindowSize({
+              width: windowWidth / 1.4,
+              height: windowHeight / 1.08
+            })
+            
+            setPosition({
+              x: Math.ceil((windowWidth - (windowWidth / 1.4)) / 2),
+              y: Math.ceil((windowHeight - (windowHeight / 1.09)) / 2)
+            })
         } else {
             
             setWindowSize({
@@ -48,9 +59,9 @@ function Main() {
               x: Math.ceil((windowWidth - (windowWidth / 1.4)) / 2),
               y: Math.ceil((windowHeight - (windowHeight / 1.2)) / 2)
             })
-            
-            
         }
+
+
       }
         
       window.addEventListener('resize',handleResize);
@@ -69,6 +80,7 @@ function Main() {
    
   },[])
   
+  //메인 그래그&드랍
   function MouseDrag(e) {
 
     const mouseMoveHandler = (event) =>{
@@ -99,6 +111,7 @@ function Main() {
     setToggle(!toggle);
   }
 
+  //메인 상단 탭 드래그 스크롤
   const scrollRef = useRef(null);
   const [isDrag, setIsDrag] = useState(false);
   const [startX, setStartX] = useState();

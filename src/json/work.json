@@ -114,7 +114,7 @@
     {
         "id": "15",
         "title" : "Hej Volvo",
-        "smallTit" : "헤이볼보 앱(차량용)을 리뉴얼 했습니다.",
+        "smallTit" : "헤이볼보 앱(Pad)을 리뉴얼 했습니다.",
         "infoTit" : "100%, Tablet",
         "url" : "https://apps.apple.com/kr/app/hej-volvo/id1198822856?platform=ipad",
         "urlBool" : true
@@ -122,7 +122,7 @@
     {
         "id": "16",
         "title" : "Hej Volvo",
-        "smallTit" : "헤이볼보 앱(모바일)을 리뉴얼 했습니다.",
+        "smallTit" : "헤이볼보 앱(APP)을 리뉴얼 했습니다.",
         "infoTit" : "100%, Mobile",
         "url" : "https://apps.apple.com/kr/app/hej-volvo/id1198822856?platform=iphone",
         "urlBool" : true
