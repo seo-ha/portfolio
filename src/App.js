@@ -19,7 +19,7 @@ function App() {
     { name : 'Home',icon : 'chrome', content : <Home/>},
     { name : 'Works',icon : 'folder', content : <Works/>},
     { name : 'Profile',icon : 'doc', content : <Skill/>},
-    { name : 'Context',icon : 'kakao', content : <Contact/>},
+    { name : 'Contact',icon : 'kakao', content : <Contact/>},
     { name : 'GitHub',icon : 'git'},
   ];
   

@@ -53,7 +53,7 @@ function Home() {
         }
       </ul>
       
-      <p className='caption'>헤더의 빈곳을 잡고 드래그를 해보세요!</p>
+      <p className='caption'>붉은 탭 바의 빈 곳을 잡고 움직여보세요!</p>
 
     </div>
   )
