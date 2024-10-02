@@ -2,21 +2,26 @@
     {
         "name" : "포트폴리오 사이트",
         "publishing" : "100",
+        "url": "https://seo-ha.github.io/portfolio/",
         "infos" : [
-            "리액트로 포트폴리오 사이트를 만들었습니다",
-            "헤더를 잡고 드래그하면 이동이 가능하게 만들었습니다"
+            "리액트 포트폴리오 사이트",
+            "붉은 탭 바를 잡고 드래그하면 이동하는 작업",
+            "Email.js를 사용해 이메일을 받을 수 있게 작업"
         ],
         "tags" : [
             { "num" : 3, "txt": "react"},
-            { "num" : 5, "txt": "scss"}
+            { "num" : 5, "txt": "scss"},
+            { "num" : 2, "txt": "Email.js"}
         ]
     },
     {
         "name" : "포켓몬 도감 사이트",
         "publishing" : "100",
+        "url": "https://seo-ha.github.io/pokemon/",
         "infos" : [
             "포켓몬 api 사용",
-            "fetch와 promise.all에 대해 알게 되었습니다"
+            "fetch와 promise.all에 대해 알게 되었다",
+            "InfiniteScroll을 사용해 스크롤을 내리면 데이터를 불러오게 작업"
         ],
         "tags" : [
             { "num" : 1, "txt": "포켓몬 API"},
@@ -27,6 +32,7 @@
     {
         "name" : "독후감 사이트",
         "publishing" : "100",
+        "url": "https://seo-ha.github.io/bookdiary/",
         "infos" : [
             "카카오톡 책 api 사용"
         ],

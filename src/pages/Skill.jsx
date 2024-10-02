@@ -1,8 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import skill from '../json/skill.json'
 import project from '../json/project.json'
 
 function Skill() {
+  
+  const [popupBool, setPopupBool] = useState(false);
+  
+  const undefindUrl = () => {
+  
+    if(popupBool){
+      setPopupBool(false);
+      document.querySelector('.popup').classList.remove('on')
+      
+    } else {
+      setPopupBool(true);
+      document.querySelector('.popup').classList.add('on');
+        
+    }
+  }
   
   return (
     <div className='tabContent skill'>
@@ -48,30 +63,32 @@ function Skill() {
               <tbody>
                 {
                   skill.map((item, idx)=>{
-                    return  <tr key={idx}>
+                    return  <tr key={idx} >
                               <td colSpan={2}>
-                                <p className='siteName'>{item.name}<small> | 퍼블리싱 {item.publishing}%</small></p>
-                                {
-                                  item.infos.map((info, i)=>{
-                                    return <span className='siteInfo' key={i}>- {info}.</span>
-                                  })
-                                }
-                                
-                                <div className='tags'>
-                                  
+                                <a href={item.url ? item.url : undefined} target={item.url ? "_blank" : '_self'} rel='noopener noreferrer'  onClick={  item.url ? ()=> false : () => undefindUrl() }>
+                                  <p className='siteName'>{item.name}<small> | 퍼블리싱 {item.publishing}%</small></p>
                                   {
-                                    
-                                    item.tags !== undefined
-                                    
-                                    ? item.tags.length > 0
-                                      ? item.tags.map((tag, i)=>{
-                                        return <span className={`tag color${tag.num}`} key={i}>{tag.txt}</span>
-                                      })
-                                      : ''
-                                    : ''
+                                    item.infos.map((info, i)=>{
+                                      return <span className='siteInfo' key={i}>- {info}.</span>
+                                    })
                                   }
                                   
-                                </div>
+                                  <div className='tags'>
+                                  
+                                    {
+                                  
+                                      item.tags !== undefined
+                                  
+                                      ? item.tags.length > 0
+                                        ? item.tags.map((tag, i)=>{
+                                          return <span className={`tag color${tag.num}`} key={i}>{tag.txt}</span>
+                                        })
+                                        : ''
+                                      : ''
+                                    }
+                                  
+                                  </div>
+                                </a>
                               </td>
                             </tr>
                   })
@@ -98,28 +115,30 @@ function Skill() {
                     project.map((item, idx)=>{
                       return  <tr key={idx}>
                                 <td colSpan={2}>
-                                  <p className='siteName'>{item.name}<small> | 퍼블리싱 {item.publishing}%</small></p>
-                                  {
-                                    item.infos.map((info, i)=>{
-                                      return <span className='siteInfo' key={i}>- {info}.</span>
-                                    })
-                                  }
-                                  
-                                  <div className='tags'>
-                                    
+                                  <a href={item.url ? item.url : undefined} target={item.url ? "_blank" : '_self'} rel='noopener noreferrer'  onClick={  item.url ? ()=> false : () => undefindUrl() }>
+                                    <p className='siteName'>{item.name}<small> | 퍼블리싱 {item.publishing}%</small></p>
                                     {
-                                      
-                                      item.tags !== undefined
-                                      
-                                      ? item.tags.length > 0
-                                        ? item.tags.map((tag, i)=>{
-                                          return <span className={`tag color${tag.num}`} key={i}>{tag.txt}</span>
-                                        })
-                                        : ''
-                                      : ''
+                                      item.infos.map((info, i)=>{
+                                        return <span className='siteInfo' key={i}>- {info}.</span>
+                                      })
                                     }
                                     
-                                  </div>
+                                    <div className='tags'>
+                                    
+                                      {
+                                    
+                                        item.tags !== undefined
+                                    
+                                        ? item.tags.length > 0
+                                          ? item.tags.map((tag, i)=>{
+                                            return <span className={`tag color${tag.num}`} key={i}>{tag.txt}</span>
+                                          })
+                                          : ''
+                                        : ''
+                                      }
+                                    
+                                    </div>
+                                  </a>
                                 </td>
                               </tr>
                     })
@@ -130,7 +149,18 @@ function Skill() {
         </section>
         
         
+        <div className='popup'>
+          <div className="bg"></div>
+          <div className="inner">
+            <div className="top">
+              <button onClick={()=>undefindUrl()}></button>
+            </div>
+            <p><span>※</span> URL이 원활하지 않습니다.<br/> 죄송합니다.🙏</p>
+          </div>
+        </div>
+        
       </div>
+      
     </div>
   )
 }
