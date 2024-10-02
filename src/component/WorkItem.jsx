@@ -6,7 +6,7 @@ function WorkItem({idx, title, smallTit, infoTit, url, urlBool}) {
   const {undefindUrl} = useContext(openPopup)
   
   return (
-    <li className={`item item${idx}`}>
+    <li className={`item`}>
         <a href={urlBool ? url : undefined} target={urlBool ? "_blank" : '_self'} rel="noopener noreferrer" onClick={  urlBool ? ()=> false : () => undefindUrl() }  >
             <div className="imgBox">
                 <img src={process.env.PUBLIC_URL + `/assets/images/work/img${idx}.jpg`} alt={title}  loading='lazy'/>

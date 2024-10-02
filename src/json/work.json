@@ -1,13 +1,5 @@
 [
     {
-        "id": "1",
-        "title" : "비드밀",
-        "smallTit" : "위탁급식 업체를 문의ㆍ의뢰하는 사이트를 신규 구축했습니다.",
-        "infoTit" : "100%, 반응형",
-        "url" : "https://www.bidmeal.co.kr/",
-        "urlBool" : true
-    },
-    {
         "id": "2",
         "title" : "SMI Noise Scope",
         "smallTit" : "차량 정비 보고서 관리 사이트를 신규 구축했습니다.",
@@ -22,14 +14,6 @@
         "infoTit" : "100%, 반응형, cafe24",
         "url" : "https://www.mediespresso.com/",
         "urlBool" : true
-    },
-    {
-        "id": "4",
-        "title" : "2023 기획재정부",
-        "smallTit" : "2023 기획재정부의 사이트를 신규 구축했습니다.",
-        "infoTit" : "100%, 반응형",
-        "url" : "",
-        "urlBool" : false
     },
     {
         "id": "5",
@@ -57,11 +41,11 @@
     },
     {
         "id": "8",
-        "title" : "2024 기획재정부",
-        "smallTit" : "2023 기획재정부 사이트를 2024 기획재정부의 사이트로 리뉴얼 했습니다",
+        "title" : "기획재정부",
+        "smallTit" : "2023 ~ 2025 기획재정부 사이트를 구축했습니다",
         "infoTit" : "100%, 반응형",
-        "url" : "",
-        "urlBool" : false
+        "url" : "https://www.xn--2025-y24rx2w.kr/html/main/",
+        "urlBool" : true
     },
     {
         "id": "9",
@@ -78,14 +62,6 @@
         "infoTit" : "100%, 반응형",
         "url" : "",
         "urlBool" : false
-    },
-    {
-        "id": "11",
-        "title" : "Volvo Hej Space",
-        "smallTit" : "볼보 유니폼 쇼핑몰을 신규 구축했습니다.",
-        "infoTit" : "100%, 반응형, cafe24",
-        "url" : "https://www.volvohejspace.com/bbs/login.php?url=https%3A%2F%2Fwww.volvohejspace.com%2Findex.php",
-        "urlBool" : true
     },
     {
         "id": "12",

@@ -68,18 +68,6 @@
         "tags" : [ ]
     },
     {
-        "name" : "Volvo Hej Space",
-        "publishing" : "100",
-        "url": "https://www.volvohejspace.com/bbs/login.php?url=https%3A%2F%2Fwww.volvohejspace.com%2Findex.php",
-        "infos" : [
-            "cafe24 개발환경의 반응형 쇼핑몰 사이트"
-        ],
-        "tags" : [ 
-            { "num" : 2, "txt": "cafe24"}
-         ]
-        
-    },
-    {
         "name" : "Boucheron - 색칠카드 공유 이벤트",
         "publishing" : "100",
         "url": "",
@@ -165,14 +153,6 @@
         "tags" : [
             { "num" : 6, "txt": "pptxGen.js"},
             { "num" : 4, "txt": "jsZip.js"}
-        ]
-    },
-    {
-        "name" : "비드밀",
-        "publishing" : "100",
-        "url": "https://www.bidmeal.co.kr/",
-        "infos" : [
-            "위탁급식 업체를 문의ㆍ의뢰하는 반응형 사이트"
         ]
     }
 ]
