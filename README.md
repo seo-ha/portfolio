@@ -22,3 +22,17 @@ pc화면을 모티브로 작업한 포트폴리오입니다.
 
 ## 작업 화면
 
+### Main
+![main](https://github.com/seo-ha/portfolio/blob/main/public/portfolio_1.png)
+* filter를 사용해 메인페이지의 원하는 태그를 찾을 수 있습니다.
+<br/>
+
+### Work
+![work](https://github.com/seo-ha/portfolio/blob/main/public/portfolio_2.png)
+* 반복되는 형태는 Components의 재활용성을 높혔습니다.
+<br/>
+
+### Contact
+![contact](https://github.com/seo-ha/portfolio/blob/main/public/portfolio_4.png)
+* Email.js를 사용해 메일을 받을 수 있게 했습니다.
+<br/>
