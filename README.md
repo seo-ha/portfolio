@@ -25,6 +25,7 @@ pc화면을 모티브로 작업한 포트폴리오입니다.
 ### Main
 ![main](https://github.com/seo-ha/portfolio/blob/main/public/portfolio_1.png)
 * filter를 사용해 메인페이지의 원하는 태그를 찾을 수 있습니다.
+* 카테고리의 빈 곳을 잡고 드래그하면 움직이는 동작을 줬습니다.
 <br/>
 
 ### Work
