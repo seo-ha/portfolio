@@ -4,7 +4,7 @@ function Home() {
 
   const [search, setSearch] = useState("");
   const list = [
-   { text : '자기소개서' , url : 'https://seohaha.notion.site/4bd92c213c3b424d8e7b12b2bbdcd8f4'}, 
+   { text : '이력서' , url : 'https://seohaha.notion.site/4bd92c213c3b424d8e7b12b2bbdcd8f4'}, 
    { text : 'Github' , url : 'https://github.com/seo-ha'}, 
    { text : 'Blog', url : 'https://blog.naver.com/myosotis99'}, 
    { text : '#정직한'}, 
