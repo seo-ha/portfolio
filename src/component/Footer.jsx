@@ -32,7 +32,7 @@ function Footer() {
   }
   
   const [clock , setClock] = useState(nowTime);
-  const [calender , setCalender] = useState(nowTime);
+  const [calender , setCalender] = useState(nowDate);
   
   setInterval(()=> {
     setClock(nowTime);
@@ -65,7 +65,6 @@ function Footer() {
           <div className='date'>
             <span>{clock}</span>
             <span>{calender}</span>
-            
           </div>
           
     </footer>
