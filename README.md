@@ -1,7 +1,7 @@
-# 프론트엔드 김서하의 포트폴리오입니다.
+# 포트폴리오입니다.
 
 ![미리보기](https://github.com/seo-ha/portfolio/blob/main/portfolio.jpg)
-+ React를 이용한 프론트엔드 포트폴리오입니다
++ React를 이용한 포트폴리오입니다
 + 링크 : https://seo-ha.github.io/portfolio/
 <br/>
 
