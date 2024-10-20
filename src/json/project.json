@@ -20,7 +20,7 @@
         "url": "https://seo-ha.github.io/pokemon/",
         "infos" : [
             "포켓몬 api 사용",
-            "fetch와 promise.all에 대해 알게 되었다",
+            "fetch와 promise.all을 배울 수 있었다.",
             "InfiniteScroll을 사용해 스크롤을 내리면 데이터를 불러오게 작업"
         ],
         "tags" : [
@@ -34,7 +34,8 @@
         "publishing" : "100",
         "url": "https://seo-ha.github.io/bookdiary/",
         "infos" : [
-            "카카오톡 책 api 사용"
+            "카카오톡 책 api 사용",
+            "저장, 수정, 삭제가 가능하게 작업"
         ],
         "tags" : [
             { "num" : 6, "txt": "kakao 책 API"},
