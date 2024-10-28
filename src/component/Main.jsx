@@ -17,15 +17,14 @@ function Main() {
   })
   
   useEffect(()=>{
-    //메인 사이즈
+    //메인 반응형 사이즈
     if (typeof window !== 'undefined') {
       
       const handleResize = () => {
         
         const windowWidth = window.innerWidth;
         const windowHeight = window.innerHeight;
-        // console.log(windowHeight);
-
+   
         if(windowWidth < 900) {
            
             setWindowSize({
@@ -60,8 +59,6 @@ function Main() {
               y: Math.ceil((windowHeight - (windowHeight / 1.2)) / 2)
             })
         }
-
-
       }
         
       window.addEventListener('resize',handleResize);
@@ -127,15 +124,15 @@ function Main() {
   };
 
   const onDragMove = (e) => {
-    if (isDrag) {
-       scrollRef.current.scrollLeft = startX - e.pageX;
+    if(isDrag) {
+      scrollRef.current.scrollLeft = startX - e.pageX;
     }
   };
   
 
 
   return (
-    <article id="boundery">
+    <main id="boundery">
       <section className={ !toggle ? 'main' : 'main on' } style={{transform: `translateX(${position.x}px) translateY(${position.y}px)`,width: windowSize.width, height:windowSize.height}} >
       
         <div className='nav'> 
@@ -170,7 +167,7 @@ function Main() {
         {menuArr[currentTab].content}
         
       </section>
-    </article>
+    </main>
   )
 }
 
