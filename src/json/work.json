@@ -126,6 +126,14 @@
         "infoTit" : "100%, Mobile, React",
         "url" : "https://seo-ha.github.io/portfolio/",
         "urlBool" : true
+    },
+    {
+        "id": "20",
+        "title" : "",
+        "smallTit" : "turn.js와 swiper를 사용해 잡지같이 넘어가는 사이트를 구현했습니다.",
+        "infoTit" : "100%, Mobile, turn.js",
+        "url" : "https://www.volvocar.co.kr/the_history_of_volvo/",
+        "urlBool" : true
     }
     
 ]

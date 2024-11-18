@@ -1,14 +1,16 @@
 [
     {
-        "name" : "기획재정부",
+        "name" : "the history of volvo",
         "publishing" : "100",
-        "url": "https://www.xn--2025-y24rx2w.kr/html/main/",
+        "url": "https://www.volvocar.co.kr/the_history_of_volvo/",
         "infos" : [
-            "2023 ~ 2025 기획재정부 반응형 사이트",
-            "YouTube Player API를 사용해 동영상 재생 기능을 구현, 다양한 멀티미디어 콘텐츠 제공"
+            "turn.js로 잡지 같은 애니메이션 화면 구현",
+            "메뉴 썸네일 클릭시 페이지 이동, 모바일페이지는 swiper로 적용",
+            "모바일 슬라이드 화면에 안내 문구를 추가해 스크롤 인지 가능"
         ],
         "tags" : [
-            { "num" : 1, "txt": "YouTube Player API"}
+            { "num" : 3, "txt": "turn.js"},
+            { "num" : 1, "txt": "swiper.js"}
         ]
         
     },
@@ -55,6 +57,19 @@
         "tags" : [
             { "num" : 6, "txt": "웹 접근성"}
         ]
+    },
+    {
+        "name" : "기획재정부",
+        "publishing" : "100",
+        "url": "https://www.xn--2025-y24rx2w.kr/html/main/",
+        "infos" : [
+            "2023 ~ 2025 기획재정부 반응형 사이트",
+            "YouTube Player API를 사용해 동영상 재생 기능을 구현, 다양한 멀티미디어 콘텐츠 제공"
+        ],
+        "tags" : [
+            { "num" : 1, "txt": "YouTube Player API"}
+        ]
+        
     },
     {
         "name" : "Volvo Digital Shop",
