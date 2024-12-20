@@ -551,7 +551,7 @@
             .link {
                 padding: 40px 30px; margin-bottom: 40px; text-align: left; background-color: #efefef; border-radius: 10px;
                 p {display: block; margin-bottom: 20px; color: #333; font-size: 18px; font-weight: 600;}
-                a {display: block; font-size: 16px; text-decoration: underline; text-underline-offset: 3px; color: #333; font-weight: 500;}
+                a {display: block; font-size: 16px; text-decoration: underline; text-underline-offset: 3px; line-height: 1.5; color: #333; font-weight: 500;}
             }
             
             .imgBox {
@@ -582,4 +582,32 @@
         &::after { background-color: rgba($color: #000, $alpha: 0.4); }
         .inner {display: flex;}
     }
+    
+    @include max-screen(600px) {
+        .inner {
+            width: 95%;
+            
+            .middle {
+                padding: 20px 15px 50px;
+                
+                .link {
+                    padding: 25px 20px; margin-bottom: 20px;
+                        
+                    p {margin-bottom: 12px; font-size: 16px}
+                    a {font-size: 14px}
+                }
+                
+                .imgBox {
+                    p {
+                        margin-top: 20px; font-size: 14px;
+                        
+                        &::before {width: 4px; min-width: 4px; height: 4px; margin: 9px 7px 0 0;}
+                        & + p {margin-top: 15px}
+                    }
+                    
+                    & + .imgBox {margin-top: 30px}
+                }
+            }
+        }
+    };
 }
