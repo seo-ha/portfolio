@@ -7,7 +7,7 @@ function WorkItem({idx, title, smallTit, infoTit, url, urlBool}) {
   
   return (
     <li className={`item`}>
-        <a href={urlBool ? url : undefined} target={urlBool ? "_blank" : '_self'} rel="noopener noreferrer" onClick={  urlBool ? ()=> false : () => undefindUrl() }  >
+        <a href={urlBool ? url : undefined} target={urlBool ? "_blank" : '_self'} rel="noopener noreferrer" onClick={  urlBool ? ()=> false : (e) => undefindUrl(e.currentTarget) }  >
             <div className="imgBox">
                 <img src={process.env.PUBLIC_URL + `/assets/images/work/img${idx}.jpg`} alt={title}  loading='lazy'/>
             </div>

@@ -3,7 +3,7 @@
         "id": "2",
         "title" : "SMI Noise Scope",
         "smallTit" : "차량 정비 보고서 관리 사이트를 신규 구축했습니다.",
-        "infoTit" : "100%, 반응형",
+        "infoTit" : "100%, 반응형, jsZip.js, pptxGen.js",
         "url" : "https://bluehands.smins.kr/bbs/login.php",
         "urlBool" : true
     },
@@ -13,15 +13,15 @@
         "smallTit" : "캡슐커피 브랜드 메디프레소의 사이트를 신규 구축했습니다.",
         "infoTit" : "100%, 반응형, cafe24",
         "url" : "https://www.mediespresso.com/",
-        "urlBool" : true
+        "urlBool" : false
     },
     {
         "id": "5",
         "title" : "Medihealth",
         "smallTit" : "메디프레소의 헬스케어 사이트를 신규 구축했습니다.",
-        "infoTit" : "100%, 반응형",
+        "infoTit" : "100%, 반응형, fullPage.js",
         "url" : "https://www.medihealth.co.kr/",
-        "urlBool" : true
+        "urlBool" : false
     },
     {
         "id": "6",
@@ -33,9 +33,9 @@
     },
     {
         "id": "7",
-        "title" : "Boucheron",
+        "title" : "Boucheron 이벤트",
         "smallTit" : "부쉐론 이벤트로 기기에 맞는 이미지를 다운로드 받을 수 있는 사이트를 구축했습니다.",
-        "infoTit" : "100%, 반응형",
+        "infoTit" : "100%, 반응형, kakao API",
         "url" : "",
         "urlBool" : false
     },
@@ -57,9 +57,9 @@
     },
     {
         "id": "10",
-        "title" : "Boucheron",
+        "title" : "Boucheron 이벤트",
         "smallTit" : "부쉐론 이벤트로 카드를 색칠해 공유하는 사이트를 신규 구축했습니다.",
-        "infoTit" : "100%, 반응형",
+        "infoTit" : "100%, 반응형, kakao API",
         "url" : "",
         "urlBool" : false
     },
@@ -129,11 +129,19 @@
     },
     {
         "id": "20",
-        "title" : "",
-        "smallTit" : "turn.js와 swiper를 사용해 잡지같이 넘어가는 사이트를 구현했습니다.",
+        "title" : "volvo 브로슈어",
+        "smallTit" : "volvo 브로슈어로 turn.js와 swiper를 사용해 잡지같이 넘어가는 사이트를 구현했습니다.",
         "infoTit" : "100%, Mobile, turn.js",
         "url" : "https://www.volvocar.co.kr/the_history_of_volvo/",
         "urlBool" : true
+    },
+    {
+        "id": "21",
+        "title" : "Boucheron",
+        "smallTit" : "css, js로 인터렉션한 boucheron 이벤트 사이트를 만들었습니다",
+        "infoTit" : "100%, Mobile",
+        "url" : "https://www.boucheron-event.co.kr/?utm=official-main",
+        "urlBool" : false
     }
     
 ]
