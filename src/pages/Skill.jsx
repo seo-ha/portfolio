@@ -57,7 +57,7 @@ function Skill() {
               <thead>
                 <tr>
                   <th>두부</th>
-                  <td>2021.09 ~ </td>
+                  <td>2021.09 ~ 2024.12</td>
                 </tr>
               </thead>
               <tbody>
