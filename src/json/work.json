@@ -74,7 +74,7 @@
     {
         "id": "13",
         "title" : "Skbioscience",
-        "smallTit" : "Careers, Esg 페이지 작업, 접근성 작업을 했습니다.",
+        "smallTit" : "웹 접근성, 유지 보수 작업을 했습니다. (Careers, Esg 페이지 작업)",
         "infoTit" : "40%, 반응형",
         "url" : "https://www.skbioscience.com/kr/main",
         "urlBool" : true
@@ -142,6 +142,14 @@
         "infoTit" : "100%, Mobile",
         "url" : "https://www.boucheron-event.co.kr/?utm=official-main",
         "urlBool" : false
+    },
+    {
+        "id": "22",
+        "title" : "개인 프로젝트",
+        "smallTit" : "금산 버스 노선 검색 사이트를 만들었습니다",
+        "infoTit" : "100%, Mobile, react, typescript",
+        "url" : "https://seo-ha.github.io/geumsan_bus/",
+        "urlBool" : true
     }
     
 ]

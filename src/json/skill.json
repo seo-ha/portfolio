@@ -1,7 +1,7 @@
 [
     {
         "name" : "boucheron 크리스마스 이벤트",
-        "publishing" : "100",
+        "publishing" : "100% 프론트엔드 100%",
         "url": "https://www.boucheron-event.co.kr/?utm=official-main",
         "infos" : [
             "css, js로 인터렉션 효과 구현",
@@ -13,7 +13,7 @@
     },
     {
         "name" : "the history of volvo",
-        "publishing" : "100",
+        "publishing" : "100% 프론트엔드 100%",
         "url": "https://www.volvocar.co.kr/the_history_of_volvo/",
         "infos" : [
             "turn.js로 잡지 같은 애니메이션 화면 구현",
@@ -28,7 +28,7 @@
     },
     {
         "name" : "Hej Volvo (App, Pad)",
-        "publishing" : "90",
+        "publishing" : "90% 프론트엔드 30%",
         "url": "https://apps.apple.com/kr/app/hej-volvo/id1198822856?platform=iphone",
         "infos" : [
             "Hej Volvo 앱 리뉴얼 작업",
@@ -43,8 +43,21 @@
         ]
     },
     {
+        "name" : "SMI Noise Scope",
+        "publishing" : "100% 프론트엔드 30%",
+        "url": "https://bluehands.smins.kr/bbs/login.php",
+        "infos" : [
+            "차량 정비 보고서 관리 반응형 사이트",
+            "사용자가 작성한 내용을 PPT 및 Docx 파일로 다운로드할 수 있는 기능을 구현, 보고서 관리의 효율성 증대"
+        ],
+        "tags" : [
+            { "num" : 6, "txt": "pptxGen.js"},
+            { "num" : 4, "txt": "jsZip.js"}
+        ]
+    },
+    {
         "name" : "HIV",
-        "publishing" : "100",
+        "publishing" : "100% 프론트엔드 100%",
         "url": "https://www.hipchoice.kr/",
         "infos" : [
             "Hiv 검진 안내 반응형 사이트",
@@ -60,19 +73,20 @@
     },
     {
         "name" : "Skbioscience",
-        "publishing" : "40",
+        "publishing" : "40%",
         "url": "https://www.skbioscience.com/kr/main",
         "infos" : [
             "Careers, Esg 페이지 반응형 작업",
             "웹 접근성 작업 및 유지보수 작업"
         ],
         "tags" : [
-            { "num" : 6, "txt": "웹 접근성"}
+            { "num" : 6, "txt": "웹 접근성"},
+            { "num" : 5, "txt": "유지보수"}
         ]
     },
     {
         "name" : "기획재정부",
-        "publishing" : "100",
+        "publishing" : "100%",
         "url": "https://www.xn--2025-y24rx2w.kr/html/main/",
         "infos" : [
             "2023 ~ 2025 기획재정부 반응형 사이트",
@@ -85,7 +99,7 @@
     },
     {
         "name" : "Volvo Digital Shop",
-        "publishing" : "100",
+        "publishing" : "100%",
         "url": "https://volvodigitalshop.com/",
         "infos" : [
             "선착순 차량 예약 반응형 사이트",
@@ -95,7 +109,7 @@
     },
     {
         "name" : "Boucheron - 카드 공유 이벤트 사이트",
-        "publishing" : "100",
+        "publishing" : "100%",
         "url": "",
         "infos" : [
             "부쉐론 겨울 이벤트로 선택한 이미지 카드를 색칠해 공유하는 반응형 사이트",
@@ -108,7 +122,7 @@
     },
     {
         "name" : "First Kid Mall",
-        "publishing" : "100",
+        "publishing" : "100%",
         "url": "https://www.firstkid.co.kr/",
         "infos" : [
             "아동의류 쇼핑몰 반응형 사이트",
@@ -118,7 +132,7 @@
     },
     {
         "name" : "Boucheron - 이미지 다운로드 이벤트",
-        "publishing" : "100",
+        "publishing" : "100%",
         "url": "",
         "infos" : [
             "부쉐론 이벤트 반응형 사이트",
@@ -131,7 +145,7 @@
     },
     {
         "name" : "Volvo Lifestyle",
-        "publishing" : "100",
+        "publishing" : "100%",
         "url": "https://www.volvolifestyle.com/",
         "infos" : [
             "cafe24 개발환경의 반응형 쇼핑몰 사이트 작업" 
@@ -142,7 +156,7 @@
     },
     {
         "name" : "Medihealth",
-        "publishing" : "100",
+        "publishing" : "100%",
         "url": "https://www.medihealth.co.kr/",
         "infos" : [
             "메디프레소의 헬스케어 반응형 사이트",
@@ -156,7 +170,7 @@
     },
     {
         "name" : "Mediespresso",
-        "publishing" : "100",
+        "publishing" : "100%",
         "url": "https://www.mediespresso.com/",
         "infos" : [
             "캡슐커피 브랜드 메디프레소의 반응형 사이트",
@@ -167,18 +181,6 @@
             { "num" : 5, "txt": "cafe24"},
             { "num" : 2, "txt": "aos"}
         ]
-    },
-    {
-        "name" : "SMI Noise Scope",
-        "publishing" : "100",
-        "url": "https://bluehands.smins.kr/bbs/login.php",
-        "infos" : [
-            "차량 정비 보고서 관리 반응형 사이트",
-            "사용자가 작성한 내용을 PPT 및 Docx 파일로 다운로드할 수 있는 기능을 구현, 보고서 관리의 효율성 증대"
-        ],
-        "tags" : [
-            { "num" : 6, "txt": "pptxGen.js"},
-            { "num" : 4, "txt": "jsZip.js"}
-        ]
     }
+   
 ]
