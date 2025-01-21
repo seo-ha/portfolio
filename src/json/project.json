@@ -24,7 +24,7 @@
         "url": "https://seo-ha.github.io/portfolio/",
         "infos" : [
             "리액트 포트폴리오 사이트",
-            "붉은 탭 바를 잡고 드래그하면 이동하는 작업",
+            "붉은 탭 바를 잡고 드래그하면 위치가 이동하게 작업",
             "Email.js를 사용해 이메일을 받을 수 있게 작업"
         ],
         "tags" : [
@@ -39,7 +39,7 @@
         "url": "https://seo-ha.github.io/pokemon/",
         "infos" : [
             "포켓몬 api 사용",
-            "fetch와 promise.all을 배울 수 있었다.",
+            "fetch와 promise.all로 데이터를 병렬 처리해 로딩 속도를 높임",
             "InfiniteScroll을 사용해 스크롤을 내리면 데이터를 불러오게 작업"
         ],
         "tags" : [
