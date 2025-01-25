@@ -4,7 +4,8 @@ function Home() {
 
   const [search, setSearch] = useState("");
   const list = [
-   { text : '이력서' , url : 'https://seohaha.notion.site/4bd92c213c3b424d8e7b12b2bbdcd8f4'}, 
+   { text : '이력서' , url : process.env.PUBLIC_URL + '/assets/images/김서하_이력서.pdf'}, 
+   { text : '경력기술서' , url : process.env.PUBLIC_URL + '/assets/images/경력기술서.pdf'}, 
    { text : 'Github' , url : 'https://github.com/seo-ha'}, 
    { text : '#프론트엔드'}, 
    { text : '#퍼블리셔'}, 
@@ -46,7 +47,7 @@ function Home() {
           <li key={id}>
             {
               item.url 
-              ? <a href={item.url} target='_blank' rel='noreferrer'>{item.text}</a>
+              ? <a href={item.url} download={item.text === '이력서' || item.text === '경력기술서' ? item.text : false } target='_blank' rel='noreferrer'>{item.text}</a>
               : <span>{item.text}</span>
             }
             </li>) 
