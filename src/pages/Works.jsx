@@ -67,7 +67,7 @@ function Works() {
             <div className="top">
               <button className='popupClose' onClick={(e)=>undefindUrl(e.currentTarget)}></button>
             </div>
-            <p><span>※</span> URL이 원활하지 않습니다.<br/> 죄송합니다.🙏</p>
+            <p><span>※</span> URL이 원활하지 않습니다.</p>
           </div>
         </div>
         
@@ -78,9 +78,9 @@ function Works() {
             </div>
             <div className="middle">
               
-              <div className="link">
-                <p>사이트 바로가기</p>
-                <a href="https://www.boucheron-event.co.kr/?utm=official-main" target='_blank' rel="noopener noreferrer">https://www.boucheron-event.co.kr/?utm=official-main</a>
+              <div className="link"> 
+                <p>* URL이 원활하지 않습니다.</p>
+                {/* <a href="https://www.boucheron-event.co.kr/?utm=official-main" target='_blank' rel="noopener noreferrer">https://www.boucheron-event.co.kr/?utm=official-main</a> */}
               </div>
               
               <div className="imgBox">

@@ -560,8 +560,8 @@
             height: calc(100% - 45px); padding: 50px 70px; overflow-y: auto;
             
             .link {
-                padding: 40px 30px; margin-bottom: 40px; text-align: left; background-color: #efefef; border-radius: 10px;
-                p {display: block; margin-bottom: 20px; color: #333; font-size: 18px; font-weight: 600;}
+                padding: 30px 30px; margin-bottom: 40px; text-align: left; background-color: #efefef; border-radius: 10px;
+                p {display: block; color: #d52f27; font-size: 16px; font-weight: 500;}
                 a {display: block; font-size: 16px; text-decoration: underline; text-underline-offset: 3px; line-height: 1.5; color: #333; font-weight: 500;}
             }
             
@@ -602,9 +602,9 @@
                 padding: 20px 15px 50px;
                 
                 .link {
-                    padding: 25px 20px; margin-bottom: 20px;
+                    padding: 20px 20px; margin-bottom: 20px;
                         
-                    p {margin-bottom: 12px; font-size: 16px}
+                    p {font-size: 15px}
                     a {font-size: 14px}
                 }
                 
