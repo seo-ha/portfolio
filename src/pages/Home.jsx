@@ -17,9 +17,7 @@ function Home() {
    { text : '#책임감이 있는'}, 
   ];
 
-  const filterTitle = list.filter((item) => {
-    return item.text.includes(search)
-  })
+  const filterTitle = list.filter((item) => { return item.text.includes(search) })
 
   const onChange = (e) => {
     setSearch(e.target.value)

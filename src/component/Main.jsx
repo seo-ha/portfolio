@@ -15,8 +15,17 @@ function Main() {
     x: undefined,
     y: undefined,
   })
+
+  const [tabStyle, setTabStyle] = useState();
+  const [filterTab, setFilterTab] = useState([]);
   
   useEffect(()=>{
+    const tab = Array.from(document.querySelectorAll('.mainTab'));
+    setTabStyle(tab)
+  },[])
+
+  useEffect(()=>{
+    
     //메인 반응형 사이즈
     if (typeof window !== 'undefined') {
       
@@ -76,6 +85,7 @@ function Main() {
     }
    
   },[])
+
   
   //메인 그래그&드랍
   function MouseDrag(e) {
@@ -88,7 +98,6 @@ function Main() {
         x :position.x + deltaX,
         y :position.y + deltaY
       });
-      
       
     };
     
@@ -107,6 +116,27 @@ function Main() {
   function Toggle() {
     setToggle(!toggle);
   }
+
+  function CloseScreen(idx) {
+    const parent = idx.parentNode
+    parent.style.display = 'none';
+  
+    const some = tabStyle?.filter((item)=>  getComputedStyle(item).display === 'flex') || [];
+
+    if (some.length === 0) return; // 남은 탭이 없으면 실행하지 않음
+
+    setFilterTab(some)
+    setTabStyle(some);
+  }
+  
+  useEffect(()=>{
+    if(filterTab.length > 0) {
+      const tabKey = filterTab[0]?.getAttribute('data-key');
+      if (tabKey !== undefined) {
+        selectMenuhandler(Number(tabKey)); // 숫자로 변환하여 전달
+      }
+    }
+  },[filterTab])
 
   //메인 상단 탭 드래그 스크롤
   const scrollRef = useRef(null);
@@ -128,8 +158,6 @@ function Main() {
       scrollRef.current.scrollLeft = startX - e.pageX;
     }
   };
-  
-
 
   return (
     <main id="boundery">
@@ -140,31 +168,28 @@ function Main() {
           <div className='tabList' onMouseDown={onDragStart}  onMouseMove={onDragMove} onMouseUp={onDragEnd} onMouseLeave={onDragEnd} ref={scrollRef}>
                 
             {menuArr.map((ele, idx) => {
-              if(ele.name === 'GitHub') {
-                  return <a key={idx} className={currentTab === idx ? 'mainTab tabBtn on' : 'mainTab tabBtn'} href='https://github.com/seo-ha' target='_blank' rel="noreferrer">
+             
+              return <div key={idx} className={currentTab === idx ? `mainTab tabBtn on` : `mainTab tabBtn`} data-key={idx}>
+                <button className='tab' onClick={()=> ele.name !== 'GitHub' ? selectMenuhandler(idx) : window.location.href = 'https://github.com/seo-ha'}>
                   <img src={process.env.PUBLIC_URL + `/assets/images/ico_${ele.icon}.png`} alt=""  loading='lazy'/>
                   {ele.name}
-                  <span className='closeBtn'><i></i></span>
-                </a>
-              }
-              return <button key={idx} className={currentTab === idx ? `mainTab tabBtn on` : `mainTab tabBtn`} onClick={()=> selectMenuhandler(idx)}>
-                <img src={process.env.PUBLIC_URL + `/assets/images/ico_${ele.icon}.png`} alt=""  loading='lazy'/>
-                {ele.name}
-                <span className='closeBtn'><i></i></span>
-              </button>
+                </button>
+                <button className='closeBtn' onClick={(e)=>CloseScreen(e.currentTarget)}><i></i></button>
+              </div>
             })}
             
           </div>
           
           <div className={ isDragMove ? `icons on` : `icons`} onMouseDown={(e) => MouseDrag(e)} >
-            <button className='nonclick'><img src={process.env.PUBLIC_URL + "/assets/images/ico_hide.png?ver=0905"} alt=""  loading='lazy'/></button>
             <button onClick={Toggle}><img src={ !toggle ? process.env.PUBLIC_URL + "/assets/images/ico_upSize.png?ver=0905" :  process.env.PUBLIC_URL +  "/assets/images/ico_downSize.png?ver=0905"} alt=""  loading='lazy'/></button>
-            <button className='nonclick'><img src={process.env.PUBLIC_URL + "/assets/images/ico_close.png?ver=0905"} alt=""  loading='lazy'/></button>
+            {/* <button onClick={AllCloseScreen}><img src={process.env.PUBLIC_URL + "/assets/images/ico_close.png?ver=0905"} alt=""  loading='lazy'/></button> */}
           </div>
           
         </div>
         
-        {menuArr[currentTab].content}
+        {
+          currentTab !== null ? menuArr[currentTab].content : ''
+        }
         
       </section>
     </main>
