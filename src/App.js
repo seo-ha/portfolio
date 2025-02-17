@@ -35,7 +35,10 @@ function App() {
     const ctx = gsap.context(() => {
       const tl = gsap.timeline();
 
-      tl.to(".cursor", { top: "85px", left: "85px", duration: 1.8, delay: 2.3 })
+      tl.to(".introContent", { scale: 1, duration: 0.7, delay: 0.3 })
+        .to(".sunglasses", { rotate: 20, duration: 0.6 })
+        .to(".introPage", { display: "none" })
+        .to(".cursor", { top: "85px", left: "85px", duration: 1.8, delay: 0.5 })
         .to("header .folderIcon", { backgroundColor: "rgba(255,255,255,0.08)", duration: 0.3 })
         .to("header .folderIcon", { backgroundColor: "rgba(255,255,255,0)", duration: 0.3 })
         .to(".main", { display: "block" })

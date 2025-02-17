@@ -11,6 +11,16 @@
     }
 }
 
+.introPage { 
+    position: fixed; top: 0; left: 0; width: 100%; height: 100dvh; display: flex; justify-content: center; align-items: center; background-color: #EBB31A; z-index: 100;
+
+    .introContent {position: relative; transform: scale(0.1); width: clamp(300px, 80%, 500px);  aspect-ratio: auto 1/1; z-index: 1;}
+    .introContents::after { content: ""; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 120%; aspect-ratio: 1/1; border-radius: 50%; background-color: #fff; filter: blur(45px); z-index: -1;}
+    .intro {width: 100%;}
+    .sunglasses { animation: sunglass 0.6s 0.8s linear forwards; position: absolute; top: 39%; left: 15%; width: 67%; transform-origin: center right;}
+}
+
+
 #boundery { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;}
 
 .main {
