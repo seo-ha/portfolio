@@ -1,0 +1,155 @@
+[
+    {
+        "id": "2",
+        "title" : "SMI Noise Scope",
+        "smallTit" : "차량 정비 보고서 관리 사이트를 신규 구축했습니다.",
+        "infoTit" : "100%, 반응형, jsZip.js, pptxGen.js",
+        "url" : "https://bluehands.smins.kr/bbs/login.php",
+        "urlBool" : true
+    },
+    {
+        "id": "3",
+        "title" : "Mediespresso",
+        "smallTit" : "캡슐커피 브랜드 메디프레소의 사이트를 신규 구축했습니다.",
+        "infoTit" : "100%, 반응형, cafe24",
+        "url" : "https://medipresso.com/?srsltid=AfmBOorVLRFx-Iek0T5x7hYB5w63vdl6yPO2BavVkQBGTzQDYpQdVVhS",
+        "urlBool" : true
+    },
+    {
+        "id": "5",
+        "title" : "Medihealth",
+        "smallTit" : "메디프레소의 헬스케어 사이트를 신규 구축했습니다.",
+        "infoTit" : "100%, 반응형, fullPage.js",
+        "url" : "https://www.medihealth.co.kr/",
+        "urlBool" : false
+    },
+    {
+        "id": "6",
+        "title" : "Volvo Lifestyle",
+        "smallTit" : "볼보의 생활용품 쇼핑몰을 신규 구축했습니다",
+        "infoTit" : "100%, 반응형, cafe24",
+        "url" : "https://www.volvolifestyle.com/",
+        "urlBool" : true
+    },
+    {
+        "id": "7",
+        "title" : "Boucheron 이벤트",
+        "smallTit" : "부쉐론 이벤트로 기기에 맞는 이미지를 다운로드 받을 수 있는 사이트를 구축했습니다.",
+        "infoTit" : "100%, 반응형, kakao API",
+        "url" : "",
+        "urlBool" : false
+    },
+    {
+        "id": "8",
+        "title" : "기획재정부",
+        "smallTit" : "2023 ~ 2025 기획재정부 사이트를 구축했습니다",
+        "infoTit" : "100%, 반응형",
+        "url" : "https://www.xn--2025-y24rx2w.kr/html/main/",
+        "urlBool" : true
+    },
+    {
+        "id": "9",
+        "title" : "First Kid Mall",
+        "smallTit" : "아동의류 쇼핑몰을 신규 구축했습니다.",
+        "infoTit" : "100%, 반응형",
+        "url" : "https://www.firstkid.co.kr/",
+        "urlBool" : true
+    },
+    {
+        "id": "10",
+        "title" : "Boucheron 이벤트",
+        "smallTit" : "부쉐론 이벤트로 카드를 색칠해 공유하는 사이트를 신규 구축했습니다.",
+        "infoTit" : "100%, 반응형, kakao API",
+        "url" : "",
+        "urlBool" : false
+    },
+    {
+        "id": "12",
+        "title" : "Volvo Digital Shop",
+        "smallTit" : "볼보 한정판 차량 예약 사이트를 신규 구축했습니다.",
+        "infoTit" : "100%, 반응형",
+        "url" : "https://volvodigitalshop.com/",
+        "urlBool" : true
+    },
+    {
+        "id": "13",
+        "title" : "Skbioscience",
+        "smallTit" : "웹 접근성, 유지 보수 작업을 했습니다. (Careers, Esg 페이지 작업)",
+        "infoTit" : "40%, 반응형",
+        "url" : "https://www.skbioscience.com/kr/main",
+        "urlBool" : true
+    },
+    {
+        "id": "14",
+        "title" : "HIV",
+        "smallTit" : "Hiv 검진 안내 사이트를 구축했습니다.",
+        "infoTit" : "100%, 반응형",
+        "url" : "https://www.hipchoice.kr/",
+        "urlBool" : true
+    },
+    {
+        "id": "15",
+        "title" : "Hej Volvo",
+        "smallTit" : "헤이볼보 앱(Pad)을 리뉴얼 했습니다.",
+        "infoTit" : "100%, Tablet",
+        "url" : "https://apps.apple.com/kr/app/hej-volvo/id1198822856?platform=ipad",
+        "urlBool" : true
+    },
+    {
+        "id": "16",
+        "title" : "Hej Volvo",
+        "smallTit" : "헤이볼보 앱(APP)을 리뉴얼 했습니다.",
+        "infoTit" : "100%, Mobile",
+        "url" : "https://apps.apple.com/kr/app/hej-volvo/id1198822856?platform=iphone",
+        "urlBool" : true
+    },
+    {
+        "id": "17",
+        "title" : "개인 프로젝트",
+        "smallTit" : "kakao Api로 독후감 사이트를 만들었습니다.",
+        "infoTit" : "100%, Mobile, React, kakao api",
+        "url" : "https://seo-ha.github.io/bookdiary/",
+        "urlBool" : true
+    },
+    {
+        "id": "18",
+        "title" : "개인 프로젝트",
+        "smallTit" : "포켓몬 api로 포켓몬 도감를 만들었습니다.",
+        "infoTit" : "100%, Mobile, React, 포켓몬 api",
+        "url" : "https://seo-ha.github.io/pokemon/",
+        "urlBool" : true
+    },
+    {
+        "id": "19",
+        "title" : "개인 프로젝트",
+        "smallTit" : "포트폴리오 사이트를 만들었습니다.",
+        "infoTit" : "100%, Mobile, React",
+        "url" : "https://seo-ha.github.io/portfolio/",
+        "urlBool" : true
+    },
+    {
+        "id": "20",
+        "title" : "volvo 브로슈어",
+        "smallTit" : "volvo 브로슈어로 turn.js와 swiper를 사용해 잡지같이 넘어가는 사이트를 구현했습니다.",
+        "infoTit" : "100%, Mobile, turn.js",
+        "url" : "https://www.volvocar.co.kr/the_history_of_volvo/",
+        "urlBool" : true
+    },
+    {
+        "id": "21",
+        "title" : "Boucheron",
+        "smallTit" : "css, js로 인터렉션한 boucheron 이벤트 사이트를 만들었습니다",
+        "infoTit" : "100%, Mobile",
+        "url" : "https://www.boucheron-event.co.kr/?utm=official-main",
+        "urlBool" : false
+    },
+    {
+        "id": "22",
+        "title" : "개인 프로젝트",
+        "smallTit" : "금산 버스 노선 검색 사이트를 만들었습니다",
+        "infoTit" : "100%, Mobile, react, typescript",
+        "url" : "https://seo-ha.github.io/geumsan_bus/",
+        "urlBool" : true
+    }
+    
+]
