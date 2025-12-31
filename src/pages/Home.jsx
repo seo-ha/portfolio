@@ -7,7 +7,6 @@ function Home() {
    { text : '이력서' , url : process.env.PUBLIC_URL + '/assets/images/김서하_이력서.pdf'}, 
    { text : '경력기술서' , url : process.env.PUBLIC_URL + '/assets/images/김서하_경력기술서.docx'}, 
    { text : 'Github' , url : 'https://github.com/seo-ha'}, 
-   { text : '#프론트엔드'}, 
    { text : '#퍼블리셔'}, 
    { text : '#정직한'},   
    { text : '#늘 배우는'},
