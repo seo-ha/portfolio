@@ -1,255 +1,281 @@
 [
   {
-    "company" : "LG CNS",
-    "date" : "2025.06 ~ 2025.12",
-    "works" : [
-       {
-          "name": "프리랜서 7개월 투입건",
-          "publishing": "100%",
-          "url": "",
-          "infos": [
-            "gulp 사용",
-            "단독 프로젝트 진행"
-          ],
-          "tags": [
-            { "num": 5, "txt": "gulp" },
-            { "num": 2, "txt": "jira" },
-            { "num": 4, "txt": "Gitlab" },
-            { "num": 1, "txt": "Sourcetree " }
-          ]
-        }
+    "company": "미래아이씨티(프리랜서)",
+    "date": "2025.06 ~ 2025.12",
+    "works": [
+      {
+        "name": "LG CNS 7개월 투입건",
+        "publishing": "100%",
+        "url": "",
+        "infos": [
+          "Gulp 기반 퍼블리싱 자동화 환경에서 신규 프로젝트 퍼블리싱을 단독 수행하며 운영까지 담당",
+          "SCSS를 활용해 유지보수가 용이한 모듈형 스타일 구조를 설계·관리",
+          "GitLab 및 Jira를 활용한 협업 환경에서 글로벌 플랫폼 서비스 구축 경험"
+        ],
+        "tags": [
+          { "num": 5, "txt": "gulp" },
+          { "num": 2, "txt": "jira" },
+          { "num": 4, "txt": "Gitlab" },
+          { "num": 1, "txt": "Sourcetree" }
+        ]
+      }
     ]
   },
   {
-    "company" : "두부",
-    "date" : "2021.09 ~ 2024.12",
-    "works" : [
-       {
-          "name": "boucheron 크리스마스 이벤트",
-          "publishing": "100% 프론트엔드 100%",
-          "url": "https://www.boucheron-event.co.kr/?utm=official-main",
-          "infos": [
-            "css 애니메이션과 자바스크립트를 사용해 트리를 꾸미고 편지를 보내는 인터렉션 사이트 작업",
-            "이미지 깨짐을 고려해 settimeout으로 png를 gif처럼 구현",
-            "오너먼트 선택시 자리 교체가 가능하며 교체 가능한 자리에 확인이 가능한 효과를 줌",
-            "글로벌 사이트인 만큼 페이지 속도 개선을 위해 이미지 최적화"
-          ],
-          "tags": []
-        },
-        {
-          "name": "the history of volvo",
-          "publishing": "100% 프론트엔드 100%",
-          "url": "https://www.volvocar.co.kr/the_history_of_volvo/",
-          "infos": ["turn.js로 잡지 같은 애니메이션 화면 구현", "메뉴 썸네일 클릭시 페이지 이동, 모바일페이지는 swiper로 적용", "모바일 슬라이드 화면에 안내 문구를 추가해 스크롤 인지 가능"],
-          "tags": [
-            { "num": 3, "txt": "turn.js" },
-            { "num": 1, "txt": "swiper.js" }
-          ]
-        },
-        {
-          "name": "Hej Volvo (App, Pad)",
-          "publishing": "90% 프론트엔드 30%",
-          "url": "https://apps.apple.com/kr/app/hej-volvo/id1198822856?platform=iphone",
-          "infos": [
-            "Hej Volvo 앱 리뉴얼 작업",
-            "jQuery-UI의 sort기능을 활용해 퀵 메뉴를 구현하여, 사용자가 메뉴를 자유롭게 배치할 수 있고 LocalStorage로 위치를 저장하여 다시 들어가도 바뀌지 않게 개발",
-            "서비스 센터 리스트를 JSON으로 처리하여 효율적으로 관리 및 출력",
-            "LocalStorage를 활용한 다크 모드 구현을 통해 사용자 편의성 향상 (Pad)",
-            "Tmap.api를 사용한 경로 안내 및 맵 이미지 캡처 화면 제공. (Pad)",
-            "zim.is를 사용해 canvas 사다리타기 이벤트 작업"
-          ],
-          "tags": [
-            { "num": 5, "txt": "jquery-ui.js" },
-            { "num": 4, "txt": "Tmap API" }
-          ]
-        },
-        {
-          "name": "SMI Noise Scope",
-          "publishing": "100% 프론트엔드 30%",
-          "url": "https://bluehands.smins.kr/bbs/login.php",
-          "infos": ["차량 정비 보고서 관리 반응형 사이트", "사용자가 작성한 내용을 PPT 및 Docx 파일로 다운로드할 수 있는 기능을 구현, 보고서 관리의 효율성 증대"],
-          "tags": [
-            { "num": 6, "txt": "pptxGen.js" },
-            { "num": 4, "txt": "jsZip.js" }
-          ]
-        },
-        {
-          "name": "HIV",
-          "publishing": "100% 프론트엔드 100%",
-          "url": "https://www.hipchoice.kr/",
-          "infos": [
-            "HIV 검진 안내 반응형 사이트",
-            "메인 페이지에서 인물 선택 시 레이어가 사라지는 애니메이션 효과를 통해 직관적이고 자연스러운 사용자 경험 제공",
-            "스크롤 진행 표시 기능을 구현하여 사용자가 페이지의 탐색 상태를 쉽게 파악하도록 개선",
-            "이지선다형 팝업을 통해 HIV 검진 체험을 간편하게 안내",
-            "SessionStorage를 활용해 사용자 경험을 최적화하여, 뒤로가기나 새로고침 시에도 선택된 인물이 유지되도록 작업"
-          ],
-          "tags": [{ "num": 3, "txt": "sessionStorage" }]
-        },
-        {
-          "name": "Skbioscience",
-          "publishing": "40%",
-          "url": "https://www.skbioscience.com/kr/main",
-          "infos": ["Careers, Esg 페이지 반응형 작업", "2년간 웹 접근성 작업과 마크 획득 및 유지보수 작업"],
-          "tags": [
-            { "num": 6, "txt": "웹 접근성" },
-            { "num": 5, "txt": "유지보수" }
-          ]
-        },
-        {
-          "name": "기획재정부",
-          "publishing": "100%",
-          "url": "https://www.xn--2025-y24rx2w.kr/html/main/",
-          "infos": ["2023 ~ 2025 기획재정부 반응형 사이트", "YouTube Player API를 사용해 동영상 재생 기능을 구현, 다양한 멀티미디어 콘텐츠 제공"],
-          "tags": [{ "num": 1, "txt": "YouTube Player API" }]
-        },
-        {
-          "name": "Volvo Digital Shop",
-          "publishing": "100%",
-          "url": "https://volvodigitalshop.com/",
-          "infos": ["선착순 차량 예약 반응형 사이트", "페이지 오픈 전 카운트다운 기능을 구현하여 사용자 기대감을 유도"],
-          "tags": []
-        },
-        {
-          "name": "Boucheron - 카드 공유 이벤트 사이트",
-          "publishing": "100%",
-          "url": "",
-          "infos": ["부쉐론 겨울 이벤트로 선택한 이미지 카드를 색칠해 공유하는 반응형 사이트", "카카오톡 인앱브라우저로 접속 시 다른 브라우저로 우회 기능을 구현하여 서비스 이용의 원활함을 확보", "카카오톡, 페이스북 공유 작업"],
-          "tags": [{ "num": 4, "txt": "kakao api" }]
-        },
-        {
-          "name": "First Kid Mall",
-          "publishing": "100%",
-          "url": "https://www.firstkid.co.kr/",
-          "infos": ["아동의류 쇼핑몰 반응형 사이트", "PHP if문을 사용하여 헤더에 동적으로 클래스를 추가하여 사이트 레이아웃을 효율적으로 관리"],
-          "tags": []
-        },
-        {
-          "name": "Boucheron - 이미지 다운로드 이벤트",
-          "publishing": "100%",
-          "url": "",
-          "infos": ["부쉐론 이벤트 반응형 사이트", "사용자의 기기에 맞는 이미지 사이즈를 자동으로 감지하고 다운로드할 수 있는 기능 구현", "카카오톡, 페이스북 공유 작업"],
-          "tags": [{ "num": 6, "txt": "kakao api" }]
-        },
-        {
-          "name": "Volvo Lifestyle",
-          "publishing": "100%",
-          "url": "https://www.volvolifestyle.com/",
-          "infos": ["cafe24 개발환경의 반응형 쇼핑몰 사이트 작업", "admin 페이지 작업"],
-          "tags": [{ "num": 3, "txt": "cafe24" }]
-        },
-        {
-          "name": "Medihealth",
-          "publishing": "100%",
-          "url": "",
-          "infos": ["메디프레소의 헬스케어 반응형 사이트", "fullPage.js를 사용해 메인 페이지에서의 부드러운 스크롤 경험 제공", "aos 애니메이션 효과 작업"],
-          "tags": [
-            { "num": 1, "txt": "fullPage.js" },
-            { "num": 5, "txt": "aos" }
-          ]
-        },
-        {
-          "name": "Mediespresso",
-          "publishing": "100%",
-          "url": "https://medipresso.com/?srsltid=AfmBOorVLRFx-Iek0T5x7hYB5w63vdl6yPO2BavVkQBGTzQDYpQdVVhS",
-          "infos": ["캡슐커피 브랜드 메디프레소의 반응형 사이트", "cafe24 개발환경의 반응형 사이트 작업", "aos 애니메이션 효과 작업"],
-          "tags": [
-            { "num": 5, "txt": "cafe24" },
-            { "num": 2, "txt": "aos" }
-          ]
-        },
-        {
-          "name": "소방항공운항관리시스템",
-          "publishing": "100%",
-          "url": "",
-          "infos": ["사이트 리뉴얼 작업", "thymeleaf 환경에서 타 기업 개발자와 협력해서 작업", "kendo chart 디자인에 맞춰 수정"],
-          "tags": [
-            { "num": 4, "txt": "thymeleaf" },
-            { "num": 1, "txt": "kendo chart" }
-          ]
-        },
-        {
-          "name": "대전 유성 어궁둥 페이지",
-          "publishing": "100%",
-          "url": "https://www.yuseong.go.kr/startup/",
-          "infos": ["공공기관 사이트로 el환경에서도 작업이 틀어지지 않게 작업"],
-          "tags": [{ "num": 3, "txt": "el" }]
-        },
-        {
-          "name": "회사 자체 앱 작업(배포 x)",
-          "publishing": "100%",
-          "url": "",
-          "infos": ["flutter로 퍼블리싱 작업", "router, state, swiper, 이미지 선택과 삭제 등 스크립트 작업"],
-          "tags": [{ "num": 2, "txt": "flutter" }]
-        }
+    "company": "두부",
+    "date": "2021.09 ~ 2024.12",
+    "works": [
+      {
+        "name": "Hej Volvo (App / Tablet 리뉴얼)",
+        "publishing": "90% 프론트엔드 30%",
+        "url": "https://apps.apple.com/kr/app/hej-volvo/id1198822856?platform=iphone",
+        "infos": [
+          "jQuery-UI Sortable 기능을 활용해 사용자 맞춤형 퀵 메뉴 인터페이스 구현",
+          "LocalStorage를 연동하여 메뉴 설정 및 다크모드 상태가 유지되도록 설계하여 UX 개선",
+          "서비스 센터 정보를 JSON 구조로 관리하여 효율적인 데이터 관리 및 동적 출력 구현",
+          "LocalStorage를 활용한 다크 모드 구현을 통해 사용자 편의성 향상 (Pad)",
+          "Tmap API를 연동한 실시간 경로 안내 기능 및 맵 이미지 캡처 로직 개발",
+          "Zim.js와 Canvas를 활용한 대화형 사다리타기 이벤트 페이지 제작"
+        ],
+        "tags": [
+          { "num": 5, "txt": "jQuery-UI" },
+          { "num": 1, "txt": "LocalStorage" },
+          { "num": 3, "txt": "JSON" },
+          { "num": 4, "txt": "Zim.js" },
+          { "num": 6, "txt": "Tmap API" },
+          { "num": 2, "txt": "Canvas" }
+        ]
+      },
+      {
+        "name": "HIV",
+        "publishing": "100%",
+        "url": "https://www.hipchoice.kr/",
+        "infos": [
+          "인물 선택 시 레이어 마스킹 애니메이션을 적용해 직관적이고 몰입감 있는 인터랙션 구현",
+          "SessionStorage를 활용해 새로고침·뒤로가기 시에도 사용자 선택 상태 유지",
+          "스크롤 프로그레스 바(Scroll Indicator) 구현으로 정보 탐색 편의성 강화",
+          "이지선다형 팝업 UI를 통해 복잡한 검진 정보를 단계적으로 안내"
+        ],
+        "tags": [{ "num": 3, "txt": "sessionStorage" }]
+      },
+      {
+        "name": "Boucheron 브랜드 캠페인",
+        "publishing": "100%",
+        "url": "https://www.boucheron-event.co.kr/?utm=official-main",
+        "infos": [
+          "CSS 애니메이션과 JavaScript를 결합해 트리 꾸미기 및 메시지 전송 인터랙션 구현",
+          "setTimeout 기반 이미지 시퀀스 제어로 고용량 GIF를 대체하는 경량 애니메이션 효과 적용",
+          "카카오톡 인앱 브라우저 이슈 대응을 위한 외부 브라우저 우회 스크립트 적용",
+          "디바이스 해상도를 자동 감지해 최적 사이즈 이미지를 제공하는 다운로드 시스템 구축",
+          "카카오톡·페이스북 등 SNS 공유 API 연동"
+        ],
+        "tags": [{ "num": 4, "txt": "SNS API" }]
+      },
+      {
+        "name": "Skbioscience",
+        "publishing": "40%",
+        "url": "https://www.skbioscience.com/kr/main",
+        "infos": [
+          "웹 접근성 표준 가이드를 준수한 마크업 구조 개선 및 운영 사이트 유지보수 수행",
+          "국가 공인 웹 접근성 품질 인증 마크 획득 및 유지 관리 전담"
+        ],
+        "tags": [
+          { "num": 6, "txt": "웹 접근성" },
+          { "num": 5, "txt": "유지보수" }
+        ]
+      },
+      {
+        "name": "Volvo Lifestyle 쇼핑몰",
+        "publishing": "100%",
+        "url": "https://www.volvolifestyle.com/",
+        "infos": [
+          "Cafe24 개발 환경에 맞춘 반응형 커머스 사이트 구축 및 유지보수",
+          "관리자(Admin) 페이지 UI 작업 및 커스텀 디자인 적용"
+        ],
+        "tags": [{ "num": 3, "txt": "cafe24" }]
+      },
+      {
+        "name": "Medihealth 헬스케어 사이트",
+        "publishing": "100%",
+        "url": "",
+        "infos": [
+          "fullPage.js를 활용한 원페이지 스크롤 UI로 부드러운 사용자 경험 제공",
+          "AOS 라이브러리를 활용한 스크롤 기반 애니메이션 효과 구현"
+        ],
+        "tags": [
+          { "num": 1, "txt": "fullPage.js" },
+          { "num": 5, "txt": "aos" }
+        ]
+      },
+      {
+        "name": "SMI Noise Scope (차량 정비 보고서 시스템)",
+        "publishing": "100% 프론트엔드 30%",
+        "url": "https://bluehands.smins.kr/bbs/login.php",
+        "infos": [
+          "사용자 입력 데이터를 기반으로 클라이언트 단에서 PPT 및 Docx 파일 자동 생성·다운로드 기능 개발",
+          "보고서 관리 시스템의 반응형 UI 설계 및 데이터 출력 로직 최적화"
+        ],
+        "tags": [
+          { "num": 6, "txt": "pptxGen.js" },
+          { "num": 4, "txt": "jsZip.js" }
+        ]
+      },
+      {
+        "name": "the history of volvo",
+        "publishing": "100% 프론트엔드 100%",
+        "url": "https://www.volvocar.co.kr/the_history_of_volvo/",
+        "infos": [
+          "turn.js로 잡지 같은 애니메이션 화면 구현",
+          "메뉴 썸네일 클릭시 페이지 이동, 모바일페이지는 swiper로 적용",
+          "모바일 슬라이드 화면에 안내 문구를 추가해 스크롤 인지 가능"
+        ],
+        "tags": [
+          { "num": 3, "txt": "turn.js" },
+          { "num": 1, "txt": "swiper.js" }
+        ]
+      },
+
+      {
+        "name": "기획재정부",
+        "publishing": "100%",
+        "url": "https://www.xn--2025-y24rx2w.kr/html/main/",
+        "infos": [
+          "2023 ~ 2025 기획재정부 반응형 사이트",
+          "YouTube Player API를 사용해 동영상 재생 기능을 구현, 다양한 멀티미디어 콘텐츠 제공"
+        ],
+        "tags": [{ "num": 1, "txt": "YouTube Player API" }]
+      },
+      {
+        "name": "Volvo Digital Shop",
+        "publishing": "100%",
+        "url": "https://volvodigitalshop.com/",
+        "infos": [
+          "선착순 차량 예약 반응형 사이트",
+          "페이지 오픈 전 카운트다운 기능을 구현하여 사용자 기대감을 유도"
+        ],
+        "tags": []
+      },
+      {
+        "name": "First Kid Mall",
+        "publishing": "100%",
+        "url": "https://www.firstkid.co.kr/",
+        "infos": [
+          "아동의류 쇼핑몰 반응형 사이트",
+          "PHP if문을 사용하여 헤더에 동적으로 클래스를 추가하여 사이트 레이아웃을 효율적으로 관리"
+        ],
+        "tags": []
+      },
+
+      {
+        "name": "Mediespresso",
+        "publishing": "100%",
+        "url": "https://medipresso.com/?srsltid=AfmBOorVLRFx-Iek0T5x7hYB5w63vdl6yPO2BavVkQBGTzQDYpQdVVhS",
+        "infos": [
+          "캡슐커피 브랜드 메디프레소의 반응형 사이트",
+          "cafe24 개발환경의 반응형 사이트 작업",
+          "aos 애니메이션 효과 작업"
+        ],
+        "tags": [
+          { "num": 5, "txt": "cafe24" },
+          { "num": 2, "txt": "aos" }
+        ]
+      },
+      {
+        "name": "소방항공운항관리시스템 리뉴얼",
+        "publishing": "100%",
+        "url": "",
+        "infos": [
+          "Thymeleaf 환경에서 백엔드 개발자와 협업하여 대규모 시스템 UI 리뉴얼 수행",
+          "Kendo UI Chart를 디자인 가이드에 맞춰 커스터마이징하여 데이터 시각화 개선"
+        ],
+        "tags": [
+          { "num": 4, "txt": "thymeleaf" },
+          { "num": 1, "txt": "kendo chart" }
+        ]
+      },
+      {
+        "name": "대전 유성 어궁둥 페이지",
+        "publishing": "100%",
+        "url": "https://www.yuseong.go.kr/startup/",
+        "infos": [
+          "EL 환경에서도 레이아웃이 깨지지 않는 견고한 마크업 구조 설계"
+        ],
+        "tags": [{ "num": 3, "txt": "el" }]
+      },
+      {
+        "name": "사내 자체 하이브리드 앱",
+        "publishing": "100%",
+        "url": "",
+        "infos": [
+          "Flutter 기반 퍼블리싱 및 라우팅·스와이퍼 등 핵심 UI 로직 구현"
+        ],
+        "tags": [{ "num": 2, "txt": "flutter" }]
+      }
     ]
   },
   {
-    "company" : "개인프로젝트",
-    "date" : "~ing",
-    "works" : [
-        {
-          "name" : "금산 버스 노선 검색 사이트",
-          "publishing" : "100% 프론트엔드 100%",
-          "url": "https://seo-ha.github.io/geumsan_bus/",
-          "infos" : [
-              "국토교통부에 들어가 있는 데이터가 별로 없어서 금산 군청 사이트에서 엑셀파일을 다운 받아 json으로 만들어서 작업",
-              "리액트와 타입스크립트로 작업한 버스 노선 검색 사이트",
-              "검색 작업을 통해 버스 번호로 리스트 노출 작업",
-              "국토교통부.api를 적용해 시외, 고속 버스 정보 연동",
-              "OpenWeather.api를 적용해 날씨 연동 작업"
-          ],
-          "tags" : [
-              { "num" : 3, "txt": "react"},
-              { "num" : 5, "txt": "style-component"},
-              { "num" : 4, "txt": "typescript"},
-              { "num" : 1, "txt": "국토교통부.api"},
-              { "num" : 2, "txt": "OpenWeather.api"}
-          ]
+    "company": "개인프로젝트",
+    "date": "~ing",
+    "works": [
+      {
+        "name": "금산 버스 노선 검색 사이트",
+        "publishing": "100% 프론트엔드 100%",
+        "url": "https://seo-ha.github.io/geumsan_bus/",
+        "infos": [
+          "국토교통부에 들어가 있는 데이터가 별로 없어서 금산 군청 사이트에서 엑셀파일을 다운 받아 json으로 만들어서 작업",
+          "리액트와 타입스크립트로 작업한 버스 노선 검색 사이트",
+          "검색 작업을 통해 버스 번호로 리스트 노출 작업",
+          "국토교통부.api를 적용해 시외, 고속 버스 정보 연동",
+          "OpenWeather.api를 적용해 날씨 연동 작업"
+        ],
+        "tags": [
+          { "num": 3, "txt": "react" },
+          { "num": 5, "txt": "style-component" },
+          { "num": 4, "txt": "typescript" },
+          { "num": 1, "txt": "국토교통부.api" },
+          { "num": 2, "txt": "OpenWeather.api" }
+        ]
       },
       {
-          "name" : "포트폴리오 사이트",
-          "publishing" : "100% 프론트엔드 100%",
-          "url": "https://seo-ha.github.io/portfolio/",
-          "infos" : [
-              "리액트 포트폴리오 사이트",
-              "붉은 탭 바를 잡고 드래그하면 위치가 이동하게 작업",
-              "Email.js를 사용해 이메일을 받을 수 있게 작업"
-          ],
-          "tags" : [
-              { "num" : 3, "txt": "react"},
-              { "num" : 5, "txt": "scss"},
-              { "num" : 2, "txt": "Email.js"}
-          ]
+        "name": "포트폴리오 사이트",
+        "publishing": "100% 프론트엔드 100%",
+        "url": "https://seo-ha.github.io/portfolio/",
+        "infos": [
+          "리액트 포트폴리오 사이트",
+          "붉은 탭 바를 잡고 드래그하면 위치가 이동하게 작업",
+          "Email.js를 사용해 이메일을 받을 수 있게 작업"
+        ],
+        "tags": [
+          { "num": 3, "txt": "react" },
+          { "num": 5, "txt": "scss" },
+          { "num": 2, "txt": "Email.js" }
+        ]
       },
       {
-          "name" : "포켓몬 도감 사이트",
-          "publishing" : "100% 프론트엔드 100%",
-          "url": "https://seo-ha.github.io/pokemon/",
-          "infos" : [
-              "포켓몬 api 사용",
-              "fetch와 promise.all로 데이터를 병렬 처리해 로딩 속도를 높임",
-              "InfiniteScroll을 사용해 스크롤을 내리면 데이터를 불러오게 작업"
-          ],
-          "tags" : [
-              { "num" : 1, "txt": "포켓몬 API"},
-              { "num" : 4, "txt": "react"},
-              { "num" : 6, "txt": "scss"}
-          ]
+        "name": "포켓몬 도감 사이트",
+        "publishing": "100% 프론트엔드 100%",
+        "url": "https://seo-ha.github.io/pokemon/",
+        "infos": [
+          "포켓몬 api 사용",
+          "fetch와 promise.all로 데이터를 병렬 처리해 로딩 속도를 높임",
+          "InfiniteScroll을 사용해 스크롤을 내리면 데이터를 불러오게 작업"
+        ],
+        "tags": [
+          { "num": 1, "txt": "포켓몬 API" },
+          { "num": 4, "txt": "react" },
+          { "num": 6, "txt": "scss" }
+        ]
       },
       {
-          "name" : "독후감 사이트",
-          "publishing" : "100% 프론트엔드 100%",
-          "url": "https://seo-ha.github.io/bookdiary/",
-          "infos" : [
-              "카카오톡 책 api 사용",
-              "저장, 수정, 삭제가 가능하게 작업"
-          ],
-          "tags" : [
-              { "num" : 6, "txt": "kakao 책 API"},
-              { "num" : 2, "txt": "react"},
-              { "num" : 3, "txt": "scss"}
-          ]
+        "name": "독후감 사이트",
+        "publishing": "100% 프론트엔드 100%",
+        "url": "https://seo-ha.github.io/bookdiary/",
+        "infos": ["카카오톡 책 api 사용", "저장, 수정, 삭제가 가능하게 작업"],
+        "tags": [
+          { "num": 6, "txt": "kakao 책 API" },
+          { "num": 2, "txt": "react" },
+          { "num": 3, "txt": "scss" }
+        ]
       }
     ]
   }
